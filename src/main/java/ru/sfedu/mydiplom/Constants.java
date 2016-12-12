@@ -1,6 +1,7 @@
 package ru.sfedu.mydiplom;
 
 public class Constants {
+    public static final String PATH_CSV_STORE = "ru.sfedu.path.csv_store";
     public static final String APPLICATION_FILE_NAME="applications.csv";
     public static final String CLIENTS_FILE_NAME="clients.csv";
     public static final String CREDITS_FILE_NAME="credits.csv";
