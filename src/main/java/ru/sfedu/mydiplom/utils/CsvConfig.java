@@ -1,4 +1,4 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.utils;
 
 import ru.sfedu.mydiplom.model.dto.ClassType;
 import com.opencsv.bean.ColumnPositionMappingStrategy;

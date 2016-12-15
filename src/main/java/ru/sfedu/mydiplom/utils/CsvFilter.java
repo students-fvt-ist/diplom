@@ -1,4 +1,4 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.utils;
 
 import com.opencsv.bean.CsvToBeanFilter;
 import com.opencsv.bean.MappingStrategy;
