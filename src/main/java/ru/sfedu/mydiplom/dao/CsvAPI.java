@@ -11,6 +11,7 @@ import com.opencsv.bean.CsvToBean;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.List;
+import java.util.Optional;
 import org.apache.log4j.Logger;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 
@@ -63,6 +64,12 @@ public class CsvAPI implements IGeneric{
         }
         return  result;
     }
+
+  /*  @Override
+    public Optional<Applications> getApplicationById(Long Id) {
+        Optional<Applications> appOptional;// = new Optional<Applications>();
+        return  appOptional;
+    }*/
 
     @Override
     public Result update(GenericDto object) throws Exception {

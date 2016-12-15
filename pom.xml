@@ -28,7 +28,7 @@
         <dependency>
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
-            <version>3.3</version>
+            <version>3.8</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.simpleframework/simple-xml -->
         <dependency>
