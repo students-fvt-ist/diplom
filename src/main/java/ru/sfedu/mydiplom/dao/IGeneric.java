@@ -11,5 +11,5 @@ public interface IGeneric {
     public Result update(GenericDto object)throws Exception;   
     public Result delete(String arg, String value, ClassType type)throws Exception;  
     public ResultWithValue select(String arg, String value, ClassType type)throws Exception; 
-//    public Optional<Applications>getApplicationById(Long Id);
+    public Optional<Applications>getApplicationById(Long Id);
 }
