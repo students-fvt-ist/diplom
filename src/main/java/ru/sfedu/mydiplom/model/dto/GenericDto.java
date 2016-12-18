@@ -6,9 +6,10 @@ public class GenericDto implements Serializable{
     long id=1l;
     private  ClassType typeClass;
 
-    public GenericDto(ClassType typeClass, long id) {
+    public GenericDto(ClassType typeClass, long id) throws InterruptedException {
         this.typeClass=typeClass;
         this.id = id;
+        Thread.sleep(1);
     }
 
     public long getId() {

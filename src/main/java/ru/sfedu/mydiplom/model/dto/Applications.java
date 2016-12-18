@@ -3,7 +3,6 @@ package ru.sfedu.mydiplom.model.dto;
 import java.io.Serializable;
 
 public class Applications extends GenericDto{
-	private long id = 1l;
 	private float sum;
 	private long credit;
 	private int maturity;
@@ -11,29 +10,17 @@ public class Applications extends GenericDto{
 	private long date;
 	private int status;
 	private long clientID;
+        private long typeCredit;
 
     /**
      *
      */
     public Applications() throws InterruptedException{
         super(ClassType.APP, 1l);
-        Thread.sleep(1);}
-    
+    }
 
-    /**
-     *
-     * @param id
-     * @param sum
-     * @param credit
-     * @param maturity
-     * @param rate
-     * @param date
-     * @param status
-     * @param clientID
-     */
-    public Applications(long id, float sum, long credit, int maturity, float rate, long date, int status, long clientID) throws InterruptedException {
+    public Applications(float sum, long credit, int maturity, float rate, long date, int status, long clientID, long typeCredit, long id) throws InterruptedException {
         super(ClassType.APP, id);
-        this.id = id;
         this.sum = sum;
         this.credit = credit;
         this.maturity = maturity;
@@ -41,16 +28,15 @@ public class Applications extends GenericDto{
         this.date = date;
         this.status = status;
         this.clientID = clientID;
-        Thread.sleep(1);
+        this.typeCredit = typeCredit;
     }
 
-        
-    /**
-     * @return the id
-     */
-    @Override
-    public long getId() {
-        return id;
+    public long getTypeCredit() {
+        return typeCredit;
+    }
+
+    public void setTypeCredit(long typeCredit) {
+        this.typeCredit = typeCredit;
     }
 
     /**
@@ -58,11 +44,6 @@ public class Applications extends GenericDto{
      */
     public float getSum() {
         return sum;
-    }
-    
-    @Override
-    public void setId(long id) {
-        this.id = id;
     }
 
     /**

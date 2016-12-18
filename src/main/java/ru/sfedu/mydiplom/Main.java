@@ -1,7 +1,7 @@
 package ru.sfedu.mydiplom;
 
 import java.io.IOException;
-import java.util.logging.Level;
+import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import org.apache.log4j.Logger;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
 
@@ -29,18 +29,19 @@ public class Main {
 }
     
     public static void main(String[] args) {
-        // TODO code application logic here
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
+        // TODO исправить Proporties
 //        try {
-//            //getConfigurationEntry("a");
-//            System.out.println(getConfigurationEntry("ru.sfedu.path.csv_store")+"ASDASD");
+//            getConfigurationEntry("a");
+//            System.out.println(getConfigurationEntry(PATH_CSV_STORE)+"ASDASD");
+//            getConfigurationEntry(PATH_CSV_STORE);
 //        } catch (IOException e) {
 //            log.error(e+"AAAAaA");
 //        } catch(NullPointerException e) {
-//            log.error(e);
+//            log.error(e.getMessage());
 //        }
-//        
+        
     }
     
 }
