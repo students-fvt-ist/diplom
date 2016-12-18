@@ -1,45 +1,26 @@
 
 package ru.sfedu.mydiplom.model.dto;
 
-import com.opencsv.bean.CsvBindByName;
 import java.io.Serializable;
 
 public class Clients extends GenericDto{
-    @CsvBindByName
     private long id = 1l;
-    @CsvBindByName
     private long dateOfBirth;
-    @CsvBindByName
     private int status;
-    @CsvBindByName
     private int passportNumber;
-    @CsvBindByName
     private float salary;
-    @CsvBindByName
     private float experience;
-    @CsvBindByName
     private float experienceOfLastWP;
-    @CsvBindByName
     private float totalGain;
-    @CsvBindByName
     private boolean conviction;
-    @CsvBindByName
     private boolean working;
-    @CsvBindByName
     private boolean changedPassport;
-    @CsvBindByName
     private String name;
-    @CsvBindByName
     private String placeOfWorking;
-    @CsvBindByName
     private String addres;
-    @CsvBindByName
     private String phone;
-    @CsvBindByName
     private String workPhone;
-    @CsvBindByName
     private String passportData;
-    @CsvBindByName
     private String otherDocument;
 
     public Clients() throws InterruptedException {

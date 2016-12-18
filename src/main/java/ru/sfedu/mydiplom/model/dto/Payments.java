@@ -1,14 +1,11 @@
 package ru.sfedu.mydiplom.model.dto;
 
-import com.opencsv.bean.CsvBindByName;
 import java.io.Serializable;
 
 public class Payments extends GenericDto{
-    @CsvBindByName
+
     private long id = 1l;
-    @CsvBindByName
     private long date;
-    @CsvBindByName
     private long credit;
     
     public Payments() throws InterruptedException {

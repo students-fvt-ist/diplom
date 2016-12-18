@@ -9,7 +9,7 @@ import ru.sfedu.mydiplom.model.dto.ClassType;
 import ru.sfedu.mydiplom.model.dto.GenericDto;
 
 public class CsvAPISelectTest {
-    private static final Logger log = Logger.getLogger(Main.class);
+    private static final Logger log = Logger.getLogger(MyDiplomClient.class);
 
     /**
      * Test of Selects method, of class CsvAPI.

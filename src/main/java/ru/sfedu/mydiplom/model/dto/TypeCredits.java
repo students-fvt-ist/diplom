@@ -1,24 +1,16 @@
 package ru.sfedu.mydiplom.model.dto;
 
-import com.opencsv.bean.CsvBindByName;
 import java.io.Serializable;
 
 public class TypeCredits extends GenericDto{
-    @CsvBindByName
+
     private long id = 1l;
-    @CsvBindByName
     private String name;
-    @CsvBindByName
     private int maturityOf;
-    @CsvBindByName
     private int maturityUp;
-    @CsvBindByName
     private float sumOf;
-    @CsvBindByName
     private float sumUp;
-    @CsvBindByName
     private float rateOf;
-    @CsvBindByName
     private float rateUp;
 
     public TypeCredits() throws InterruptedException {

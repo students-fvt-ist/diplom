@@ -1,16 +1,11 @@
 package ru.sfedu.mydiplom.model.dto;
 
-import com.opencsv.bean.CsvBindByName;
 import java.io.Serializable;
 
 public class Delay extends GenericDto{
-    @CsvBindByName
     private long id = 1l;
-    @CsvBindByName
     private long credit;
-    @CsvBindByName
     private long date;
-    @CsvBindByName
     private float sum;
 
     public Delay() throws InterruptedException {

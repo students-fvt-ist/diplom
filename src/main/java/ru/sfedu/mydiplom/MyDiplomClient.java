@@ -2,10 +2,10 @@ package ru.sfedu.mydiplom;
 
 import org.apache.log4j.Logger;
 
-public class Main {
-    private static Logger log = Logger.getLogger(Main.class);
+public class MyDiplomClient {
+    private static Logger log = Logger.getLogger(MyDiplomClient.class);
 
-    public Main() {
+    public MyDiplomClient() {
         log.debug("<Your constructor name>[0]: starting application.........");
 
     }
@@ -27,7 +27,7 @@ public class Main {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        Main mdc=new Main();
+        MyDiplomClient mdc=new MyDiplomClient();
         mdc.logBasicSystemInfo();
     }
     
