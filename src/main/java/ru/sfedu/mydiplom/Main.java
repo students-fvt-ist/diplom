@@ -33,13 +33,14 @@ public class Main {
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
 //        try {
+//            //getConfigurationEntry("a");
 //            System.out.println(getConfigurationEntry("ru.sfedu.path.csv_store")+"ASDASD");
 //        } catch (IOException e) {
 //            log.error(e+"AAAAaA");
 //        } catch(NullPointerException e) {
 //            log.error(e);
 //        }
-        
+//        
     }
     
 }
