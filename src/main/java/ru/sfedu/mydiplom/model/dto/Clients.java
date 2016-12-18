@@ -4,7 +4,6 @@ package ru.sfedu.mydiplom.model.dto;
 import java.io.Serializable;
 
 public class Clients extends GenericDto{
-    private long id = 1l;
     private long dateOfBirth;
     private int status;
     private int passportNumber;
@@ -30,7 +29,6 @@ public class Clients extends GenericDto{
 
     public Clients(long id, long dateOfBirth, int status, int passportNumber, float salary, float experience, float experienceOfLastWP, float totalGain, boolean conviction, boolean working, boolean changedPassport, String name, String placeOfWorking, String addres, String phone, String workPhone, String passportData, String otherDocument) throws InterruptedException {
         super(ClassType.CLT, id);
-        this.id = id;
         this.dateOfBirth = dateOfBirth;
         this.status = status;
         this.passportNumber = passportNumber;
@@ -62,11 +60,6 @@ public class Clients extends GenericDto{
     public boolean isChangedPassport(){
         return changedPassport;
     }
-    
-    @Override
-    public long getId() {
-        return id;
-    }
 
     public String getName() {
         return name;
@@ -74,11 +67,6 @@ public class Clients extends GenericDto{
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    @Override
-    public void setId(long id) {
-        this.id = id;
     }
 
     public int getStatus() {

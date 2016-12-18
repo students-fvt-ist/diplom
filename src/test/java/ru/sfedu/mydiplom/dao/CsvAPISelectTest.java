@@ -39,14 +39,6 @@ public class CsvAPISelectTest {
     }
     
     @Test
-    public void testSelectCredit() throws Exception {
-        System.out.println("Select Credit");
-        CsvAPI instance = new CsvAPI();
-        Optional<List<GenericDto>> result = instance.select("status", "2", ClassType.CRD);
-        assertNotNull(result.get().get(0));
-    }
-    
-    @Test
     public void testSelectPayment() throws Exception {
         System.out.println("Select Payment");
         CsvAPI instance = new CsvAPI();

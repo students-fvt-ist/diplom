@@ -5,7 +5,6 @@ import static ru.sfedu.mydiplom.Constants.*;
 public enum ClassType {
     APP(COLUMNS_APP),
     CLT(COLUMNS_CLT),
-    CRD(COLUMNS_CRD),
     PMT(COLUMNS_PMT),
     TCD(COLUMNS_TCD),
     DLY(COLUMNS_DLY);

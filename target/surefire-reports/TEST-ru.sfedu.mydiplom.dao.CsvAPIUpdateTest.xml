@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" time="0.228" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" time="0.215" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_102/jre/lib/amd64"/>
@@ -61,9 +61,8 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateApplication" time="0.072"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateTypeCredits" time="0.054"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateDelay" time="0.011"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdatePayment" time="0.04"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateClient" time="0.005"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateCredit" time="0.043"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateTypeCredits" time="0.064"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateDelay" time="0.018"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdatePayment" time="0.052"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateClient" time="0.007"/>
 </testsuite>

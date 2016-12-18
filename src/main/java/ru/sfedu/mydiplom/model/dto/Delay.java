@@ -3,7 +3,6 @@ package ru.sfedu.mydiplom.model.dto;
 import java.io.Serializable;
 
 public class Delay extends GenericDto{
-    private long id = 1l;
     private long credit;
     private long date;
     private float sum;
@@ -14,7 +13,6 @@ public class Delay extends GenericDto{
 
     public Delay(long id, long credit, long date, float sum) throws InterruptedException {
         super(ClassType.DLY, id);
-        this.id = id;
         this.credit = credit;
         this.date = date;
         this.sum = sum;
@@ -25,15 +23,6 @@ public class Delay extends GenericDto{
      *
      * @return
      */
-    @Override
-    public long getId() {
-        return id;
-    }
-
-    @Override
-    public void setId(long id) {
-        this.id = id;
-    }
 
     public long getCredit() {
         return credit;

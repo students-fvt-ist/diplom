@@ -1,11 +1,6 @@
 package ru.sfedu.mydiplom.dao;
 
-import ru.sfedu.mydiplom.model.dto.Applications;
-import ru.sfedu.mydiplom.model.dto.Delay;
-import ru.sfedu.mydiplom.model.dto.Clients;
-import ru.sfedu.mydiplom.model.dto.Payments;
-import ru.sfedu.mydiplom.model.dto.TypeCredits;
-import ru.sfedu.mydiplom.model.dto.Credits;
+import ru.sfedu.mydiplom.model.dto.*;
 import ru.sfedu.mydiplom.model.dto.GenericDto;
 import com.opencsv.bean.ColumnPositionMappingStrategy;
 import java.util.ArrayList;
@@ -43,7 +38,7 @@ public class CsvAPIInsertTest {
             Applications obj;
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
-                obj = new Applications(System.currentTimeMillis(), i*35000, 0, 20, 10, System.currentTimeMillis(), 0, 0);
+                obj = new Applications(i*35000, 0, 20, 10, System.currentTimeMillis(), 0, 0, 0, System.currentTimeMillis());
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }
@@ -64,26 +59,6 @@ public class CsvAPIInsertTest {
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
                 obj = new Clients(System.currentTimeMillis(), i, 0, 0, 0, 0, 0, 0, true, true, true, "Name", "Work", "Street", "234567", "276543", "pd", "null");
-                result = instance.insert(obj);
-                assertEquals(expResult.getStatus(), result.getStatus());
-            }
-        } catch (Exception e) {
-            log.error("Error: "+e);
-            throw e;
-        }
-    }
-    
-    @Test
-    public void testInsertCredit() throws Exception {
-        try {
-            System.out.println("Insert Credits");
-            CsvAPI instance = new CsvAPI();
-            Result expResult = new Result();
-            Result result = null;
-            Credits obj = null;
-            expResult.setStatus(StatusType.OK.toString());
-            for (int i = 0; i < 10; i++) {
-                obj = new Credits(System.currentTimeMillis(), i, 0, 0);
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }

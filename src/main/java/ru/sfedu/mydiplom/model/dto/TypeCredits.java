@@ -3,8 +3,6 @@ package ru.sfedu.mydiplom.model.dto;
 import java.io.Serializable;
 
 public class TypeCredits extends GenericDto{
-
-    private long id = 1l;
     private String name;
     private int maturityOf;
     private int maturityUp;
@@ -20,7 +18,6 @@ public class TypeCredits extends GenericDto{
 
     public TypeCredits(long id, String name, int maturityOf, int maturityUp, float sumOf, float sumUp, float rateOf, float rateUp) throws InterruptedException {
         super(ClassType.TCD, id);
-        this.id = id;
         this.name = name;
         this.maturityOf = maturityOf;
         this.maturityUp = maturityUp;
@@ -29,16 +26,6 @@ public class TypeCredits extends GenericDto{
         this.rateOf = rateOf;
         this.rateUp = rateUp;
         Thread.sleep(1);
-    }
-
-    @Override
-    public void setId(long id) {
-        this.id = id;
-    }
-    
-    @Override
-    public long getId() {
-        return id;
     }
 
     public String getName() {

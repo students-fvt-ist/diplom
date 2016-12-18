@@ -1641,3 +1641,8 @@
 12.18:20.17.25ERROR	ru.sfedu.mydiplom.Main:41 - java.lang.NullPointerException
 12.18:20.17.36ERROR	ru.sfedu.mydiplom.Main:41 - java.lang.NullPointerException
 12.18:20.17.47ERROR	ru.sfedu.mydiplom.Main:41 - java.lang.NullPointerException
+12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482077945637;35000.0;0;20;10.0;1482077945637;0;0
+12.19:00.56.07TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found

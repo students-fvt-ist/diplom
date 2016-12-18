@@ -79,34 +79,6 @@ public class CsvAPIUpdateTest {
     }
     
     @Test
-    public void testUpdateCredit() throws Exception {
-        System.out.println("Update Credit");
-        CsvAPI instance = new CsvAPI();
-        Credits cur;
-        Result result;
-        String assertValue = StatusType.OK.toString();
-        try{
-            Optional<List<GenericDto>> resultSelect = instance.select("status", "2", ClassType.CRD);
-            if (resultSelect.get().isEmpty()) {
-                throw new RecordNotFoundException(0);
-            }
-            for (int i = 0; i < resultSelect.get().size(); i++) {
-                cur = (Credits) resultSelect.get().get(i);
-                cur.setStatus(cur.getStatus()*100);
-                result=instance.update(resultSelect.get().get(i));
-                if (result.getStatus().equals(StatusType.ERROR.toString())) {
-                    assertValue=result.getStatus();
-                }
-            }
-        }catch(RecordNotFoundException e){
-            log.trace(e.getMessage());
-        }catch(Exception e){
-            log.debug(e.getMessage());
-        }
-        assertEquals(StatusType.OK.toString(), assertValue);
-    }
-    
-    @Test
     public void testUpdatePayment() throws Exception {
         System.out.println("Update Payment");
         CsvAPI instance = new CsvAPI();

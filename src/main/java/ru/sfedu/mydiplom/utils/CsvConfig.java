@@ -29,10 +29,6 @@ public class CsvConfig{
                         strategy.setType(Clients.class);
                         file=CLIENTS_FILE_NAME;
                         break;
-            case CRD : 
-                        strategy.setType(Credits.class);
-                        file=CREDITS_FILE_NAME;
-                        break;
             case PMT : 
                         strategy.setType(Payments.class);
                         file=PAYMENTS_FILE_NAME;

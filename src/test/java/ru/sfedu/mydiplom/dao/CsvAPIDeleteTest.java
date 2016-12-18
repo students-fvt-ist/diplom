@@ -35,17 +35,6 @@ public class CsvAPIDeleteTest {
     }
     
     @Test
-    public void testDeleteCredit() throws Exception {
-        System.out.println("Delete Credit");
-        CsvAPI instance = new CsvAPI();
-        Result expResult = new Result();
-        Result result = null;
-        expResult.setStatus(StatusType.OK.toString());
-        result=instance.delete("status", "0", ClassType.CRD);
-        assertEquals(expResult.getStatus(), result.getStatus());
-    }
-    
-    @Test
     public void testDeletePayment() throws Exception {
         System.out.println("Delete Payment");
         CsvAPI instance = new CsvAPI();
