@@ -24,7 +24,6 @@ public class Clients extends GenericDto{
 
     public Clients() throws InterruptedException {
         super(ClassType.CLT, 1l);
-        Thread.sleep(1);
     }
 
     public Clients(long id, long dateOfBirth, int status, int passportNumber, float salary, float experience, float experienceOfLastWP, float totalGain, boolean conviction, boolean working, boolean changedPassport, String name, String placeOfWorking, String addres, String phone, String workPhone, String passportData, String otherDocument) throws InterruptedException {
@@ -46,7 +45,6 @@ public class Clients extends GenericDto{
         this.workPhone = workPhone;
         this.passportData = passportData;
         this.otherDocument = otherDocument;
-        Thread.sleep(1);
     }
     
     public boolean isConviction(){

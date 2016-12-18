@@ -17,10 +17,9 @@ public class Applications extends GenericDto{
      */
     public Applications() throws InterruptedException{
         super(ClassType.APP, 1l);
-        Thread.sleep(1);
     }
 
-    public Applications(float sum, long credit, int maturity, float rate, long date, int status, long clientID, long typeCredit, long id) {
+    public Applications(float sum, long credit, int maturity, float rate, long date, int status, long clientID, long typeCredit, long id) throws InterruptedException {
         super(ClassType.APP, id);
         this.sum = sum;
         this.credit = credit;

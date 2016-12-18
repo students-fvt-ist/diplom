@@ -16,7 +16,6 @@ public class Delay extends GenericDto{
         this.credit = credit;
         this.date = date;
         this.sum = sum;
-        Thread.sleep(1);
     }
 
     /**

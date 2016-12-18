@@ -1646,3 +1646,25 @@
 12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
 12.19:00.56.06TRACE	ru.sfedu.mydiplom.Main:28 - 1482077945637;35000.0;0;20;10.0;1482077945637;0;0
 12.19:00.56.07TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.Main:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.Main:28 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.Main:28 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.Main:28 - 1482077945637;35000.0;0;20;10.0;1482077945637;0;0
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.Main:28 - 1482098168528;35000.0;0;20;10.0;1482098168528;0;0
+12.19:01.10.26TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found
+12.19:01.10.29ERROR	ru.sfedu.mydiplom.Main:46 - Error: java.lang.RuntimeException: Uncompilable source code - unreported exception java.lang.InterruptedException; must be caught or declared to be thrown
+12.19:01.10.46TRACE	ru.sfedu.mydiplom.Main:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.Main:28 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.Main:28 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.Main:28 - 1482077945637;35000.0;0;20;10.0;1482077945637;0;0
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.Main:28 - 1482098168528;35000.0;0;20;10.0;1482098168528;0;0
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.dao.CsvAPI:179 - Record not found
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.dao.CsvAPI:42 - Record not found
+12.19:01.10.47TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482077945637;35000.0;0;20;10.0;1482077945637;0;0
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482098168528;35000.0;0;20;10.0;1482098168528;0;0
+12.19:01.10.57TRACE	ru.sfedu.mydiplom.Main:28 - 1482099049855;35000.0;0;20;10.0;1482099049855;0;0
+12.19:01.10.58TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found

@@ -8,14 +8,12 @@ public class Payments extends GenericDto{
     
     public Payments() throws InterruptedException {
         super(ClassType.PMT, 1l);
-        Thread.sleep(1);
     }
 
     public Payments(long id, long date, long credit) throws InterruptedException {
         super(ClassType.PMT, id);
         this.date = date;
         this.credit = credit;
-        Thread.sleep(1);
     }
 
     public long getCredit() {

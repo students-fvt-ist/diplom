@@ -13,7 +13,6 @@ public class TypeCredits extends GenericDto{
 
     public TypeCredits() throws InterruptedException {
         super(ClassType.TCD, 1l);
-        Thread.sleep(1);
     }
 
     public TypeCredits(long id, String name, int maturityOf, int maturityUp, float sumOf, float sumUp, float rateOf, float rateUp) throws InterruptedException {
@@ -25,7 +24,6 @@ public class TypeCredits extends GenericDto{
         this.sumUp = sumUp;
         this.rateOf = rateOf;
         this.rateUp = rateUp;
-        Thread.sleep(1);
     }
 
     public String getName() {

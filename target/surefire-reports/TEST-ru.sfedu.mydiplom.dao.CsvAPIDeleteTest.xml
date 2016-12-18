@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" time="0.23" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" time="0.417" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_102/jre/lib/amd64"/>
@@ -60,9 +60,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteDelay" time="0.006"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteApplication" time="0.05"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteTypeCredits" time="0.052"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteClient" time="0.07"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeletePayment" time="0.052"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteDelay" time="0.081"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteApplication" time="0.083"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteTypeCredits" time="0.08"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeleteClient" time="0.096"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIDeleteTest" name="testDeletePayment" time="0.075"/>
 </testsuite>

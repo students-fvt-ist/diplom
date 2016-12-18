@@ -1,16 +1,15 @@
 package ru.sfedu.mydiplom.dao;
 
-import java.util.ArrayList;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import ru.sfedu.mydiplom.model.Result;
 import ru.sfedu.mydiplom.model.StatusType;
 import ru.sfedu.mydiplom.model.dto.ClassType;
-import ru.sfedu.mydiplom.model.dto.GenericDto;
 
 public class CsvAPIDeleteTest {
     /**
      * Test of Delete method, of class CsvAPI.
+     * @throws java.lang.Exception
      */
     @Test
     public void testDeleteApplication() throws Exception {
