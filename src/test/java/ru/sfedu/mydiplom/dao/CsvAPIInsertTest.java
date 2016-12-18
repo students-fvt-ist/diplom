@@ -9,24 +9,13 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import ru.sfedu.mydiplom.*;
 import ru.sfedu.mydiplom.model.*;
-import ru.sfedu.mydiplom.model.dto.ClassType;
 
 public class CsvAPIInsertTest {
-    private static Logger log = Logger.getLogger(Main.class);
-
-    //TODO Прикольный тест
-//    public CsvAPIInsertTest() {
-//    }
-//    @Test
-//    public void t()throws Exception{
-//        for (long i = Long.MIN_VALUE; i < Long.MAX_VALUE; i++) {
-//            
-//        testInsertApplication();
-//        }
-//    }
+    private static final Logger log = Logger.getLogger(Main.class);
 
     /**
      * Test of Insert method, of class CsvAPI.
+     * @throws java.lang.Exception
      */
     @Test
     public void testInsertApplication() throws Exception {
