@@ -1,15 +1,24 @@
 package ru.sfedu.mydiplom.model.dto;
 
+import com.opencsv.bean.CsvBindByName;
 import java.io.Serializable;
 
 public class Applications extends GenericDto{
+        @CsvBindByName
 	private long id = 1l;
+        @CsvBindByName
 	private float sum;
+        @CsvBindByName
 	private long credit;
+        @CsvBindByName
 	private int maturity;
+        @CsvBindByName
 	private float rate;
+        @CsvBindByName
 	private long date;
+        @CsvBindByName
 	private int status;
+        @CsvBindByName
 	private long clientID;
 
     /**
