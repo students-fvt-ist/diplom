@@ -13,7 +13,6 @@ import com.opencsv.bean.BeanToCsv;
 import com.opencsv.bean.CsvToBean;
 import java.io.FileReader;
 import java.io.FileWriter;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import static java.util.Optional.*;
@@ -23,6 +22,9 @@ import ru.sfedu.mydiplom.model.dto.ClassType;
 public class CsvAPI implements IGeneric{
     private static final Logger log = Logger.getLogger(CsvAPI.class);
 
+    /**
+     *
+     */
     public CsvAPI() {}
         
     @Override
@@ -69,7 +71,13 @@ public class CsvAPI implements IGeneric{
         }
         return  result;
     }
-
+    
+    /**
+     *
+     * @param object Entry update object
+     * @return result
+     * @throws Exception
+     */
     @Override
     public Result update(GenericDto object) throws Exception {
         Result result = new Result();
@@ -109,6 +117,14 @@ public class CsvAPI implements IGeneric{
         return  result;
     }
 
+    /**
+     *
+     * @param arg
+     * @param value
+     * @param type
+     * @return Result
+     * @throws Exception
+     */
     @Override
     public Result delete(String arg, String value, ClassType type) throws Exception {
         Result result = new Result();
@@ -144,7 +160,7 @@ public class CsvAPI implements IGeneric{
             log.error(e.getMessage());
             throw e;
         }
-        return  result;
+        return result;
     }
 
     @Override

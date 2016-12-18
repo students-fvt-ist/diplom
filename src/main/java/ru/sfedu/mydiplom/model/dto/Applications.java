@@ -54,10 +54,6 @@ public class Applications extends GenericDto{
     }
 
     /**
-     * @param id the id to set
-     */
-
-    /**
      * @return the sum
      */
     public float getSum() {

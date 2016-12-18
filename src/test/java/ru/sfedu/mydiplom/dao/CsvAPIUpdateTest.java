@@ -7,7 +7,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import ru.sfedu.mydiplom.exception.RecordNotFoundException;
 import ru.sfedu.mydiplom.model.Result;
-import ru.sfedu.mydiplom.model.ResultWithValue;
 import ru.sfedu.mydiplom.model.StatusType;
 import ru.sfedu.mydiplom.model.dto.*;
 import ru.sfedu.mydiplom.model.dto.ClassType;
@@ -47,6 +46,10 @@ public class CsvAPIUpdateTest {
         assertEquals(StatusType.OK.toString(), assertValue);
     }
     
+    /**
+     *
+     * @throws Exception
+     */
     @Test
     public void testUpdateClient() throws Exception {
         System.out.println("Update Client");
