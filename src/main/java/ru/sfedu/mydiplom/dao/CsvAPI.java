@@ -205,4 +205,9 @@ public class CsvAPI implements IGeneric{
         }
         return  result;
     }
+
+    @Override
+    public Optional<GenericDto> getApplicationById(Long Id) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

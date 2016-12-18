@@ -43,4 +43,5 @@ public interface IGeneric {
      * @throws Exception
      */
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type)throws Exception; 
+    public Optional<GenericDto> getApplicationById(Long Id);
 }
