@@ -8,39 +8,15 @@ import ru.sfedu.mydiplom.model.dto.GenericDto;
 
 public interface IGeneric {
 
-    /**
-     *
-     * @param object
-     * @return
-     * @throws Exception
-     */
+    
     public Result insert(GenericDto object)throws Exception; 
-
-    /**
-     *
-     * @param object
-     * @return
-     * @throws Exception
-     */
     public Result update(GenericDto object)throws Exception;   
-
-    /**
-     *
-     * @param arg
-     * @param value
-     * @param type
-     * @return
-     * @throws Exception
-     */
     public Result delete(String arg, String value, ClassType type)throws Exception;  
-
-    /**
-     *
-     * @param arg
-     * @param value
-     * @param type
-     * @return
-     * @throws Exception
-     */
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type)throws Exception; 
+    public Optional<List<GenericDto>> getClientByID(long id) throws Exception;
+    public Optional<List<GenericDto>> getTypeCreditByID(long id) throws Exception;
+    public Optional<List<GenericDto>> getApplicationByID(long id) throws Exception;
+    public Optional<List<GenericDto>> getPaymentByID(long id) throws Exception;
+    public Optional<List<GenericDto>> getDelayByID(long id) throws Exception;
+    
 }
