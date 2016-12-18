@@ -1363,3 +1363,38 @@
 12.13:09.26.20 INFO	ru.sfedu.mydiplom.MyDiplomClient:23 - User Home Directory: /home/seyran
 12.13:09.26.20 INFO	ru.sfedu.mydiplom.MyDiplomClient:24 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
 12.13:09.26.20 INFO	ru.sfedu.mydiplom.MyDiplomClient:25 - Test INFO logging.
+12.18:16.06.13TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:42 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:158 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:187 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:129 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:71 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:164 - Record not found
+12.18:16.06.14TRACE	ru.sfedu.mydiplom.dao.CsvAPI:100 - Record not found
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found sum : 0.0
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found sum : 0.0
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found sumOf : 0.0
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found dateOfBirth : 0
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found status : 0
+12.18:16.06.14 INFO	ru.sfedu.mydiplom.dao.CsvAPI:137 - Record not found credit : 0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374529;0.0;0;20;10.0;1482066374529;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374539;70000.0;0;20;10.0;1482066374539;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374543;105000.0;0;20;10.0;1482066374543;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374549;140000.0;0;20;10.0;1482066374549;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374557;175000.0;0;20;10.0;1482066374557;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374568;210000.0;0;20;10.0;1482066374568;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374582;245000.0;0;20;10.0;1482066374582;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374593;280000.0;0;20;10.0;1482066374593;0;0
+12.18:16.06.23TRACE	ru.sfedu.mydiplom.MyDiplomClient:28 - 1482066374606;315000.0;0;20;10.0;1482066374606;0;0

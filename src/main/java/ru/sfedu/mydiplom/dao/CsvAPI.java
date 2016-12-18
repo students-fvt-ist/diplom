@@ -27,7 +27,7 @@ public class CsvAPI implements IGeneric{
     public Result insert(GenericDto obj) throws Exception{
         Result result = new Result();
         CsvConfig config = new CsvConfig(obj);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()), ' ');
+        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
@@ -38,7 +38,7 @@ public class CsvAPI implements IGeneric{
                     throw new RecordExistException(current.getId());
                 }
             }
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()), ' ');
+            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
             try {
                 list.add(obj);
                 btc.write(config.getStrategy(), writer, list);
@@ -72,7 +72,7 @@ public class CsvAPI implements IGeneric{
     public Result update(GenericDto object) throws Exception {
         Result result = new Result();
         CsvConfig config = new CsvConfig(object);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()), ' ');
+        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
@@ -80,7 +80,7 @@ public class CsvAPI implements IGeneric{
             List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter);
             if(!list.remove(object)) throw new RecordNotFoundException(object.getId());  
             list.add(object);
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()), ' ');
+            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
             try {
                 btc.write(config.getStrategy(), writer, list);
                 writer.close();
@@ -111,14 +111,14 @@ public class CsvAPI implements IGeneric{
     public Result delete(String arg, String value, ClassType type) throws Exception {
         Result result = new Result();
         CsvConfig config = new CsvConfig(type);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()), ' ');
+        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
             CsvDeleteFilter filter = new CsvDeleteFilter(config.getStrategy(), arg, value);
             List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter); 
             if (list.isEmpty()) {throw new RecordNotFoundException(0);}
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()), ' ');
+            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
             try {
                 btc.write(config.getStrategy(), writer, list);
                 writer.close();
@@ -149,7 +149,7 @@ public class CsvAPI implements IGeneric{
     public ResultWithValue select(String arg, String value, ClassType type) throws Exception {
         ResultWithValue result = new ResultWithValue();
         CsvConfig config = new CsvConfig(type);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()), ' ');
+        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
         try {
             CsvToBean ctb = new CsvToBean();
             CsvFilter filter = new CsvFilter(config.getStrategy(), arg, value);
@@ -180,7 +180,7 @@ public class CsvAPI implements IGeneric{
     public Result delete(ClassType type) throws Exception {
         Result result = new Result();
         CsvConfig config = new CsvConfig(type);
-        CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()), ' ');
+        CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
         try {
             result.setStatus(StatusType.OK.toString());
             writer.close();
