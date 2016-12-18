@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import ru.sfedu.mydiplom.model.Result;
-import ru.sfedu.mydiplom.model.ResultWithValue;
 import ru.sfedu.mydiplom.model.StatusType;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 import ru.sfedu.mydiplom.model.dto.GenericDto;

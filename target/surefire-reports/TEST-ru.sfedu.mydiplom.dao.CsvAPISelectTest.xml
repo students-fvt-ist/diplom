@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPISelectTest" time="0.519" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPISelectTest" time="0.297" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_102/jre/lib/amd64"/>
@@ -13,7 +13,6 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
-    <property name="test" value="ru.sfedu.mydiplom.dao.CsvAPISelectTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/home/seyran/NetBeansProjects/MyDiplom"/>
     <property name="java.runtime.version" value="1.8.0_102-b14"/>
@@ -36,14 +35,14 @@
     <property name="user.home" value="/home/seyran"/>
     <property name="user.timezone" value="Europe/Moscow"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="user.name" value="seyran"/>
     <property name="java.class.path" value="/home/seyran/netbeans-8.1/java/maven/boot/plexus-classworlds-2.4.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/local/java/jdk1.8.0_102/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=ru.sfedu.mydiplom.dao.CsvAPISelectTest -Dmaven.ext.class.path=/home/seyran/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/seyran/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -61,10 +60,10 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectClient" time="0.036"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectCredit" time="0.004"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectDelay" time="0.005"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectApplication" time="0.271"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectTypeCredits" time="0.007"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectPayment" time="0.003"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectClient" time="0.045"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectCredit" time="0"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectDelay" time="0.007"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectApplication" time="0.023"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectTypeCredits" time="0.008"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPISelectTest" name="testSelectPayment" time="0.008"/>
 </testsuite>

@@ -17,7 +17,7 @@ import ru.sfedu.mydiplom.model.*;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 
 public class CsvAPIInsertTest {
-    private static Logger log = Logger.getLogger(MyDiplomClient.class);
+    private static Logger log = Logger.getLogger(Main.class);
 
     //TODO Прикольный тест
 //    public CsvAPIInsertTest() {

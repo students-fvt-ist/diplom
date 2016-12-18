@@ -1,11 +1,14 @@
 package ru.sfedu.mydiplom;
 
+import java.io.IOException;
+import java.util.logging.Level;
 import org.apache.log4j.Logger;
+import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
 
-public class MyDiplomClient {
-    private static Logger log = Logger.getLogger(MyDiplomClient.class);
+public class Main {
+    private static Logger log = Logger.getLogger(Main.class);
 
-    public MyDiplomClient() {
+    public Main() {
         log.debug("<Your constructor name>[0]: starting application.........");
 
     }
@@ -27,8 +30,17 @@ public class MyDiplomClient {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        MyDiplomClient mdc=new MyDiplomClient();
+        Main mdc=new Main();
         mdc.logBasicSystemInfo();
+//        try {
+//            //getConfigurationEntry("a");
+//            System.out.println(getConfigurationEntry("ru.sfedu.path.csv_store")+"ASDASD");
+//        } catch (IOException e) {
+//            log.error(e+"AAAAaA");
+//        } catch(NullPointerException e) {
+//            log.error(e);
+//        }
+//        
     }
     
 }

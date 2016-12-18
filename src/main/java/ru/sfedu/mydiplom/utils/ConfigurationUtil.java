@@ -12,7 +12,7 @@ import java.util.Properties;
  */
 public class ConfigurationUtil {
 
-    private static final String DEFAULT_CONFIG_PATH = "myduplom.properties";
+    private static final String DEFAULT_CONFIG_PATH = "mydiplom.properties";
     private static final Properties configuration = new Properties();
 
     /**
