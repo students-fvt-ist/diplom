@@ -24,7 +24,6 @@ public class CsvAPISelectTest {
         CsvAPI instance = new CsvAPI();
         Optional<List<GenericDto>> result;
         result = instance.select("sum", "35000.0", ClassType.APP);
-//   result.getValue().addAll(instance.select(ClassType.APP).getValue());
         for (GenericDto obj : result.get()) {
             log.trace(obj);
         }

@@ -158,27 +158,21 @@ public class CsvAPI implements IGeneric{
             List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter);
             if(list.isEmpty()) throw new RecordNotFoundException(0);
             result = ofNullable(list);
-           // result.setValue(list);
             reader.close();
-           // result.setStatus(StatusType.OK.toString());
         }catch(RecordNotFoundException e){
-           // result.setStatus(StatusType.OK.toString());
-            //result.setErrorMsg(e.getMessage());
             log.trace(e.getMessage());
             throw e;
         } catch (Exception e) {
             reader.close();
-            //result.setStatus(StatusType.ERROR.toString());
-            //result.setErrorMsg(e.getMessage());
             log.error(e.getMessage());
             throw e;
         }
         return  result;    
     }
     
-//    public ResultWithValue select(ClassType type) throws Exception {
-//        return  select(null, null, type);   
-//    }
+    public Optional<List<GenericDto>> select(ClassType type) throws Exception {
+        return  select(null, null, type);   
+    }
     
     public Result delete(ClassType type) throws Exception {
         Result result = new Result();
