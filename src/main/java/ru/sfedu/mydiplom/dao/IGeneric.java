@@ -1,5 +1,6 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.util.List;
 import java.util.Optional;
 import ru.sfedu.mydiplom.model.*;
 import ru.sfedu.mydiplom.model.dto.Applications;
@@ -10,6 +11,6 @@ public interface IGeneric {
     public Result insert(GenericDto object)throws Exception; 
     public Result update(GenericDto object)throws Exception;   
     public Result delete(String arg, String value, ClassType type)throws Exception;  
-    public ResultWithValue select(String arg, String value, ClassType type)throws Exception; 
-    public Optional<Applications>getApplicationById(Long Id);
+    public Optional<List<GenericDto>> select(String arg, String value, ClassType type)throws Exception; 
+    public Optional<GenericDto> getApplicationById(Long Id);
 }

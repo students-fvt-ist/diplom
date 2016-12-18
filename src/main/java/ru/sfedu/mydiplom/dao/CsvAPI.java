@@ -13,8 +13,10 @@ import com.opencsv.bean.BeanToCsv;
 import com.opencsv.bean.CsvToBean;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import static java.util.Optional.*;
 import org.apache.log4j.Logger;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 
@@ -146,8 +148,8 @@ public class CsvAPI implements IGeneric{
     }
 
     @Override
-    public ResultWithValue select(String arg, String value, ClassType type) throws Exception {
-        ResultWithValue result = new ResultWithValue();
+    public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
+        Optional<List<GenericDto>> result;
         CsvConfig config = new CsvConfig(type);
         CSVReader reader = new CSVReader(new FileReader(config.getFile()));
         try {
@@ -155,27 +157,28 @@ public class CsvAPI implements IGeneric{
             CsvFilter filter = new CsvFilter(config.getStrategy(), arg, value);
             List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter);
             if(list.isEmpty()) throw new RecordNotFoundException(0);
-            result.setValue(list);
+            result = ofNullable(list);
+           // result.setValue(list);
             reader.close();
-            result.setStatus(StatusType.OK.toString());
+           // result.setStatus(StatusType.OK.toString());
         }catch(RecordNotFoundException e){
-            result.setStatus(StatusType.OK.toString());
-            result.setErrorMsg(e.getMessage());
-            log.trace(result.getErrorMsg());
+           // result.setStatus(StatusType.OK.toString());
+            //result.setErrorMsg(e.getMessage());
+            log.trace(e.getMessage());
             throw e;
         } catch (Exception e) {
             reader.close();
-            result.setStatus(StatusType.ERROR.toString());
-            result.setErrorMsg(e.getMessage());
+            //result.setStatus(StatusType.ERROR.toString());
+            //result.setErrorMsg(e.getMessage());
             log.error(e.getMessage());
             throw e;
         }
         return  result;    
     }
     
-    public ResultWithValue select(ClassType type) throws Exception {
-        return  select(null, null, type);   
-    }
+//    public ResultWithValue select(ClassType type) throws Exception {
+//        return  select(null, null, type);   
+//    }
     
     public Result delete(ClassType type) throws Exception {
         Result result = new Result();
@@ -194,7 +197,7 @@ public class CsvAPI implements IGeneric{
     }
 
     @Override
-    public Optional<Applications> getApplicationById(Long Id) {
+    public Optional<GenericDto> getApplicationById(Long Id) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

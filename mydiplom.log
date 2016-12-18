@@ -1419,3 +1419,173 @@
 12.18:17.05.39TRACE	ru.sfedu.mydiplom.Main:28 - 1482066384072;245000.0;0;20;10.0;1482066384072;0;0
 12.18:17.05.39TRACE	ru.sfedu.mydiplom.Main:28 - 1482066384093;280000.0;0;20;10.0;1482066384093;0;0
 12.18:17.05.39TRACE	ru.sfedu.mydiplom.Main:28 - 1482066384115;315000.0;0;20;10.0;1482066384115;0;0
+12.18:17.44.26DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.44.26 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.44.45DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.44.45 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.45.38DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.45.38 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.46.12DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.46.13 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.46.13ERROR	ru.sfedu.mydiplom.Main:40 - asasdasd
+12.18:17.46.35DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.46.35 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.46.35ERROR	ru.sfedu.mydiplom.Main:40 - asasdasd
+12.18:17.46.45DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.46.45 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.46.45ERROR	ru.sfedu.mydiplom.Main:40 - asasdasd
+12.18:17.49.33DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.49.33 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.49.33ERROR	ru.sfedu.mydiplom.Main:40 - asasdasd
+12.18:17.53.44DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.53.44 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.53.44ERROR	ru.sfedu.mydiplom.Main:40 - asasdasd
+12.18:17.53.57DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.53.57 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.53.57ERROR	ru.sfedu.mydiplom.Main:40 - java.lang.NullPointerException
+12.18:17.54.08DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.54.08 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.54.08ERROR	ru.sfedu.mydiplom.Main:40 - 
+12.18:17.55.34DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.55.34 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.55.34ERROR	ru.sfedu.mydiplom.Main:40 - class java.lang.NullPointerException
+12.18:17.56.08DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.56.08 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.56.08ERROR	ru.sfedu.mydiplom.Main:40 - 
+12.18:17.56.27DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.56.27 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.56.59DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.56.59 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.57.12DEBUG	ru.sfedu.mydiplom.Main:12 - <Your constructor name>[0]: starting application.........
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:17 - Launching the application...
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:18 - Operating System: Linux 4.4.0-53-generic
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:22 - JRE: 1.8.0_102
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:23 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:24 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:25 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:26 - User Home Directory: /home/seyran
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:27 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.18:17.57.12 INFO	ru.sfedu.mydiplom.Main:28 - Test INFO logging.
+12.18:17.57.12ERROR	ru.sfedu.mydiplom.Main:40 - java.lang.NullPointerException
+12.18:19.08.25TRACE	ru.sfedu.mydiplom.Main:31 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.18:19.08.25TRACE	ru.sfedu.mydiplom.Main:31 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.18:19.08.25TRACE	ru.sfedu.mydiplom.Main:31 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.18:19.12.20TRACE	ru.sfedu.mydiplom.Main:29 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.18:19.12.20TRACE	ru.sfedu.mydiplom.Main:29 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.18:19.12.20TRACE	ru.sfedu.mydiplom.Main:29 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.18:19.19.03TRACE	ru.sfedu.mydiplom.Main:29 - 1482066374535;35000.0;0;20;10.0;1482066374535;0;0
+12.18:19.19.03TRACE	ru.sfedu.mydiplom.Main:29 - 1482066383969;35000.0;0;20;10.0;1482066383969;0;0
+12.18:19.19.03TRACE	ru.sfedu.mydiplom.Main:29 - 1482069941234;35000.0;0;20;10.0;1482069941234;0;0
+12.18:19.19.04TRACE	ru.sfedu.mydiplom.dao.CsvAPI:71 - Record not found

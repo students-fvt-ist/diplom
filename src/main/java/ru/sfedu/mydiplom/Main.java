@@ -1,6 +1,9 @@
 package ru.sfedu.mydiplom;
 
+import java.io.IOException;
+import java.util.logging.Level;
 import org.apache.log4j.Logger;
+import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
 
 public class Main {
     private static Logger log = Logger.getLogger(Main.class);
@@ -29,6 +32,14 @@ public class Main {
         // TODO code application logic here
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
+//        try {
+//            System.out.println(getConfigurationEntry("ru.sfedu.path.csv_store")+"ASDASD");
+//        } catch (IOException e) {
+//            log.error(e+"AAAAaA");
+//        } catch(NullPointerException e) {
+//            log.error(e);
+//        }
+        
     }
     
 }

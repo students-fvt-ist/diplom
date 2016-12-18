@@ -1,5 +1,7 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.util.List;
+import java.util.Optional;
 import org.apache.log4j.Logger;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -22,18 +24,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Application");
         CsvAPI instance = new CsvAPI();
         Applications cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("sum", "70000.0", ClassType.APP);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("sum", "70000.0", ClassType.APP);
+            if (resultSelect.get().isEmpty()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (Applications) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (Applications) resultSelect.get().get(i);
                 cur.setSum(cur.getSum()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
@@ -51,18 +52,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Client");
         CsvAPI instance = new CsvAPI();
         Clients cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("dateOfBirth", "2", ClassType.CLT);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("dateOfBirth", "2", ClassType.CLT);
+            if (resultSelect.isPresent()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (Clients) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (Clients) resultSelect.get().get(i);
                 cur.setDateOfBirth(cur.getDateOfBirth()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
@@ -80,18 +80,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Credit");
         CsvAPI instance = new CsvAPI();
         Credits cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("status", "2", ClassType.CRD);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("status", "2", ClassType.CRD);
+            if (resultSelect.get().isEmpty()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (Credits) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (Credits) resultSelect.get().get(i);
                 cur.setStatus(cur.getStatus()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
@@ -109,18 +108,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Payment");
         CsvAPI instance = new CsvAPI();
         Payments cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("credit", "2", ClassType.PMT);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("credit", "2", ClassType.PMT);
+            if (resultSelect.get().isEmpty()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (Payments) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (Payments) resultSelect.get().get(i);
                 cur.setCredit(cur.getCredit()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
@@ -138,18 +136,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Type of Credits");
         CsvAPI instance = new CsvAPI();
         TypeCredits cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("sumOf", "2.0", ClassType.TCD);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("sumOf", "2.0", ClassType.TCD);
+            if (resultSelect.get().isEmpty()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (TypeCredits) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (TypeCredits) resultSelect.get().get(i);
                 cur.setSumOf(cur.getSumOf()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
@@ -167,18 +164,17 @@ public class CsvAPIUpdateTest {
         System.out.println("Update Delay");
         CsvAPI instance = new CsvAPI();
         Delay cur;
-        ResultWithValue resultSelect;
         Result result;
         String assertValue = StatusType.OK.toString();
         try{
-            resultSelect = instance.select("sum", "2.0", ClassType.DLY);
-            if (resultSelect.getValue().isEmpty()) {
+            Optional<List<GenericDto>> resultSelect = instance.select("sum", "2.0", ClassType.DLY);
+            if (resultSelect.get().isEmpty()) {
                 throw new RecordNotFoundException(0);
             }
-            for (int i = 0; i < resultSelect.getValue().size(); i++) {
-                cur = (Delay) resultSelect.getValue().get(i);
+            for (int i = 0; i < resultSelect.get().size(); i++) {
+                cur = (Delay) resultSelect.get().get(i);
                 cur.setSum(cur.getSum()*100);
-                result=instance.update(resultSelect.getValue().get(i));
+                result=instance.update(resultSelect.get().get(i));
                 if (result.getStatus().equals(StatusType.ERROR.toString())) {
                     assertValue=result.getStatus();
                 }
