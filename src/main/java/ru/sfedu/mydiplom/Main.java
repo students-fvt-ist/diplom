@@ -32,6 +32,7 @@ public class Main {
         // TODO code application logic here
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
+        // TODO исправить Proporties
 //        try {
 //            //getConfigurationEntry("a");
 //            System.out.println(getConfigurationEntry("ru.sfedu.path.csv_store")+"ASDASD");
