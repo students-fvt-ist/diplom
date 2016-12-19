@@ -208,27 +208,27 @@ public class CsvAPI implements IGeneric{
 
     @Override
     public Optional<List<GenericDto>> getClientByID(long id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return select("id", Long.toString(id), ClassType.CLT);
     }
 
     @Override
     public Optional<List<GenericDto>> getTypeCreditByID(long id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return select("id", Long.toString(id), ClassType.TCD);
     }
 
     @Override
     public Optional<List<GenericDto>> getApplicationByID(long id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return select("id", Long.toString(id), ClassType.APP);
     }
 
     @Override
     public Optional<List<GenericDto>> getPaymentByID(long id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return select("id", Long.toString(id), ClassType.PMT);
     }
 
     @Override
     public Optional<List<GenericDto>> getDelayByID(long id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        return select("id", Long.toString(id), ClassType.DLY);
     }
     
 }
