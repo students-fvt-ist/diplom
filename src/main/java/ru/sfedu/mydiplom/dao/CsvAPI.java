@@ -207,28 +207,27 @@ public class CsvAPI implements IGeneric{
     }
 
     @Override
-    public Optional<List<GenericDto>> getClientByID(long id) throws Exception {
-        return select("id", Long.toString(id), ClassType.CLT);
+    public Optional<List<GenericDto>> getObjectByID(long id, ClassType type) throws Exception {
+        return select("id", Long.toString(id), type);
+    }
+    @Override
+    public Optional<List<GenericDto>> getDelayByCreditID(long id) throws Exception {
+        return select("credit", Long.toString(id), ClassType.DLY);
     }
 
     @Override
-    public Optional<List<GenericDto>> getTypeCreditByID(long id) throws Exception {
-        return select("id", Long.toString(id), ClassType.TCD);
+    public Optional<List<GenericDto>> getPaymentByCreditID(long id) throws Exception {
+        return select("credit", Long.toString(id), ClassType.PMT);
     }
 
     @Override
-    public Optional<List<GenericDto>> getApplicationByID(long id) throws Exception {
-        return select("id", Long.toString(id), ClassType.APP);
+    public Optional<List<GenericDto>> getApplicationsByTypeID(long id) throws Exception {
+        return select("typeCredit", Long.toString(id), ClassType.APP);
     }
 
     @Override
-    public Optional<List<GenericDto>> getPaymentByID(long id) throws Exception {
-        return select("id", Long.toString(id), ClassType.PMT);
-    }
-
-    @Override
-    public Optional<List<GenericDto>> getDelayByID(long id) throws Exception {
-        return select("id", Long.toString(id), ClassType.DLY);
+    public Optional<List<GenericDto>> getApplicatonByClientID(long id) throws Exception {
+        return select("clientID", Long.toString(id), ClassType.APP);
     }
     
 }
