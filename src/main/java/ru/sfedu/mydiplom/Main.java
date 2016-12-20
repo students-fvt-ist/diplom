@@ -1,13 +1,29 @@
 package ru.sfedu.mydiplom;
 
 import java.io.IOException;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.security.auth.login.Configuration;
 import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import org.apache.log4j.Logger;
+import static ru.sfedu.mydiplom.Constants.GLOABL_PROR;
+import ru.sfedu.mydiplom.dao.CsvAPI;
+import ru.sfedu.mydiplom.model.dto.ClassType;
+import ru.sfedu.mydiplom.utils.ConfigurationUtil;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
 
+/**
+ *
+ * @author seyran
+ */
 public class Main {
     private static Logger log = Logger.getLogger(Main.class);
 
+    /**
+     *
+     */
     public Main() {
         log.debug("<Your constructor name>[0]: starting application.........");
 
@@ -28,20 +44,101 @@ public class Main {
         log.info("Test INFO logging.");
 }
     
-    public static void main(String[] args) {
-        Main mdc=new Main();
-        mdc.logBasicSystemInfo();
+    /**
+     *
+     * @param args
+     */
+    public static void main(String[] args) throws IOException{
+    //    Main mdc=new Main();
+    //    mdc.logBasicSystemInfo();
         // TODO исправить Proporties
 //        try {
 //            getConfigurationEntry("a");
-//            System.out.println(getConfigurationEntry(PATH_CSV_STORE)+"ASDASD");
+       //     log.info(getConfigurationEntry(PATH_CSV_STORE));
+      
+            ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
+            log.info("TEST->"+a.getConfigurationEntry(PATH_CSV_STORE));
+            log.info("");
 //            getConfigurationEntry(PATH_CSV_STORE);
 //        } catch (IOException e) {
 //            log.error(e+"AAAAaA");
 //        } catch(NullPointerException e) {
 //            log.error(e.getMessage());
 //        }
-        
+//     cli(args[0]);
     }
     
+    /**
+     *
+     * @param source
+     */
+    public static void cli(String source){
+        try{
+            Scanner sc = new Scanner(System.in);
+            String[] query;
+            ClassType clss;
+            String id;
+            log.info("> ");
+            query=divide(sc.nextLine());
+            switch(query[1]){
+                case "app" :
+                            clss=ClassType.APP;
+                            break;
+                case "clt" : 
+                            clss=ClassType.CLT;
+                            break;
+                case "pmt" : 
+                            clss=ClassType.PMT;
+                            break;
+                case "tcd" : 
+                            clss=ClassType.TCD;
+                            break;
+                case "dly" : 
+                            clss=ClassType.DLY;
+                            break;
+                default:        
+                            throw new Exception();
+            }
+            id=query[2];
+            CsvAPI capi = new CsvAPI();
+            switch(query[0]){
+                case "select" : 
+                                capi.getObjectByID(0, clss);
+                                break;
+                case "delete" :
+                                capi.delete("id", id, clss);
+                                break;
+                default :        
+                                throw new Exception();
+                    
+            }
+        }catch(Exception e){
+            log.info("incorect query");
+            cli(source);
+        }
+    }
+    
+    /**
+     *
+     * @param s
+     * @return
+     */
+    public static String[] divide(String s) {
+        ArrayList<String> tmp = new ArrayList<String>();
+        int i = 0;
+        boolean f = false;
+
+        for (int j = 0; j < s.length(); j++) {
+            if (s.charAt(j) == ' ') {
+                if (j > i) {
+                    tmp.add(s.substring(i, j));
+                }
+                i = j + 1;
+            }
+        }
+        if (i < s.length()) {
+            tmp.add(s.substring(i));
+        }
+        return tmp.toArray(new String[tmp.size()]);
+    }
 }

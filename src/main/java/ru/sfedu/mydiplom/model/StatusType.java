@@ -11,7 +11,15 @@ public enum StatusType {
      *
      */
     OK("OK"),
+
+    /**
+     *
+     */
     WARNING("Warning"),
+
+    /**
+     *
+     */
     ERROR("Error");
     
     String description;

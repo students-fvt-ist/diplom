@@ -6,15 +6,27 @@ import org.apache.log4j.Logger;
 import static ru.sfedu.mydiplom.Constants.*;
 import ru.sfedu.mydiplom.model.dto.*;
 
+/**
+ *
+ * @author seyran
+ */
 public class CsvConfig{
     private String file;
     private ColumnPositionMappingStrategy strategy = new ColumnPositionMappingStrategy();
     private static final Logger log = Logger.getLogger(CsvConfig.class);
 
+    /**
+     *
+     * @param obj
+     */
     public CsvConfig(GenericDto obj) {
         getConfig(obj.getTypeClass());
     }
 
+    /**
+     *
+     * @param type
+     */
     public CsvConfig(ClassType type) {
         getConfig(type);
     }
@@ -46,10 +58,18 @@ public class CsvConfig{
         strategy.setColumnMapping(type.getDescription());
     }
 
+    /**
+     *
+     * @return
+     */
     public String getFile() {
         return file;
     }
 
+    /**
+     *
+     * @return
+     */
     public ColumnPositionMappingStrategy getStrategy() {
         return strategy;
     }

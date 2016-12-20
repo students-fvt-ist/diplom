@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" time="0.398" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" time="0.44" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_102/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/local/java/jdk1.8.0_102/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/seyran/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/seyran/netbeans-8.1/java/maven-nblib/netbeans-eventspy.jar install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -60,9 +60,9 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateApplication" time="0.11"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateTypeCredits" time="0.096"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateDelay" time="0.089"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdatePayment" time="0.083"/>
-  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateClient" time="0.011"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateApplication" time="0.101"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateTypeCredits" time="0.108"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateDelay" time="0.103"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdatePayment" time="0.101"/>
+  <testcase classname="ru.sfedu.mydiplom.dao.CsvAPIUpdateTest" name="testUpdateClient" time="0.013"/>
 </testsuite>

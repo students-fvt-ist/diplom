@@ -2,6 +2,10 @@ package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
 
+/**
+ *
+ * @author seyran
+ */
 public class TypeCredits extends GenericDto{
     private String name;
     private int maturityOf;
@@ -11,10 +15,26 @@ public class TypeCredits extends GenericDto{
     private float rateOf;
     private float rateUp;
 
+    /**
+     *
+     * @throws InterruptedException
+     */
     public TypeCredits() throws InterruptedException {
         super(ClassType.TCD, 1l);
     }
 
+    /**
+     *
+     * @param id
+     * @param name
+     * @param maturityOf
+     * @param maturityUp
+     * @param sumOf
+     * @param sumUp
+     * @param rateOf
+     * @param rateUp
+     * @throws InterruptedException
+     */
     public TypeCredits(long id, String name, int maturityOf, int maturityUp, float sumOf, float sumUp, float rateOf, float rateUp) throws InterruptedException {
         super(ClassType.TCD, id);
         this.name = name;
@@ -26,58 +46,114 @@ public class TypeCredits extends GenericDto{
         this.rateUp = rateUp;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getName() {
         return name;
     }
 
+    /**
+     *
+     * @param name
+     */
     public void setName(String name) {
         this.name = name;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getMaturityOf() {
         return maturityOf;
     }
 
+    /**
+     *
+     * @param maturityOf
+     */
     public void setMaturityOf(int maturityOf) {
         this.maturityOf = maturityOf;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getMaturityUp() {
         return maturityUp;
     }
 
+    /**
+     *
+     * @param maturityUp
+     */
     public void setMaturityUp(int maturityUp) {
         this.maturityUp = maturityUp;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getSumOf() {
         return sumOf;
     }
 
+    /**
+     *
+     * @param sumOf
+     */
     public void setSumOf(float sumOf) {
         this.sumOf = sumOf;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getSumUp() {
         return sumUp;
     }
 
+    /**
+     *
+     * @param sumUp
+     */
     public void setSumUp(float sumUp) {
         this.sumUp = sumUp;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getRateOf() {
         return rateOf;
     }
 
+    /**
+     *
+     * @param rateOf
+     */
     public void setRateOf(float rateOf) {
         this.rateOf = rateOf;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getRateUp() {
         return rateUp;
     }
 
+    /**
+     *
+     * @param rateUp
+     */
     public void setRateUp(float rateUp) {
         this.rateUp = rateUp;
     }

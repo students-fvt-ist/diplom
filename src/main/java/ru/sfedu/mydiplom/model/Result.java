@@ -11,6 +11,9 @@ public class Result {
     private String status;
     private String errorMsg;
 
+    /**
+     *
+     */
     public Result() {
     }
 

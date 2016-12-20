@@ -2,6 +2,10 @@ package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
 
+/**
+ *
+ * @author seyran
+ */
 public class Applications extends GenericDto{
 	private float sum;
 	private long credit;
@@ -14,11 +18,26 @@ public class Applications extends GenericDto{
 
     /**
      *
+     * @throws java.lang.InterruptedException
+     * @throws InterruptedException
      */
     public Applications() throws InterruptedException{
         super(ClassType.APP, 1l);
     }
 
+    /**
+     *
+     * @param sum
+     * @param credit
+     * @param maturity
+     * @param rate
+     * @param date
+     * @param status
+     * @param clientID
+     * @param typeCredit
+     * @param id
+     * @throws InterruptedException
+     */
     public Applications(float sum, long credit, int maturity, float rate, long date, int status, long clientID, long typeCredit, long id) throws InterruptedException {
         super(ClassType.APP, id);
         this.sum = sum;
@@ -31,10 +50,18 @@ public class Applications extends GenericDto{
         this.typeCredit = typeCredit;
     }
 
+    /**
+     *
+     * @return
+     */
     public long getTypeCredit() {
         return typeCredit;
     }
 
+    /**
+     *
+     * @param typeCredit
+     */
     public void setTypeCredit(long typeCredit) {
         this.typeCredit = typeCredit;
     }

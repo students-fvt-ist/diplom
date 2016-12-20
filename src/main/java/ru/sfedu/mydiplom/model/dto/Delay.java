@@ -2,15 +2,31 @@ package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
 
+/**
+ *
+ * @author seyran
+ */
 public class Delay extends GenericDto{
     private long credit;
     private long date;
     private float sum;
 
+    /**
+     *
+     * @throws InterruptedException
+     */
     public Delay() throws InterruptedException {
         super(ClassType.DLY, 1l);
     }
 
+    /**
+     *
+     * @param id
+     * @param credit
+     * @param date
+     * @param sum
+     * @throws InterruptedException
+     */
     public Delay(long id, long credit, long date, float sum) throws InterruptedException {
         super(ClassType.DLY, id);
         this.credit = credit;
@@ -27,22 +43,42 @@ public class Delay extends GenericDto{
         return credit;
     }
 
+    /**
+     *
+     * @param credit
+     */
     public void setCredit(long credit) {
         this.credit = credit;
     }
 
+    /**
+     *
+     * @return
+     */
     public long getDate() {
         return date;
     }
 
+    /**
+     *
+     * @param date
+     */
     public void setDate(long date) {
         this.date = date;
     }
 
+    /**
+     *
+     * @return
+     */
     public float getSum() {
         return sum;
     }
 
+    /**
+     *
+     * @param sum
+     */
     public void setSum(float sum) {
         this.sum = sum;
     }

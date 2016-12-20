@@ -2,11 +2,35 @@ package ru.sfedu.mydiplom.model.dto;
 
 import static ru.sfedu.mydiplom.Constants.*;
 
+/**
+ *
+ * @author seyran
+ */
 public enum ClassType {
+
+    /**
+     *
+     */
     APP(COLUMNS_APP),
+
+    /**
+     *
+     */
     CLT(COLUMNS_CLT),
+
+    /**
+     *
+     */
     PMT(COLUMNS_PMT),
+
+    /**
+     *
+     */
     TCD(COLUMNS_TCD),
+
+    /**
+     *
+     */
     DLY(COLUMNS_DLY);
     
     private String[] description;
@@ -22,6 +46,10 @@ public enum ClassType {
         return super.toString(); //To change body of generated methods, choose Tools | Templates.
     }
 
+    /**
+     *
+     * @return
+     */
     public String[] getDescription() {
         return description;
     }

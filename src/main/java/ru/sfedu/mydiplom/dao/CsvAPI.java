@@ -19,6 +19,10 @@ import static java.util.Optional.*;
 import org.apache.log4j.Logger;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 
+/**
+ *
+ * @author seyran
+ */
 public class CsvAPI implements IGeneric{
     private static final Logger log = Logger.getLogger(CsvAPI.class);
 
@@ -27,6 +31,12 @@ public class CsvAPI implements IGeneric{
      */
     public CsvAPI() {}
         
+    /**
+     *
+     * @param obj
+     * @return
+     * @throws Exception
+     */
     @Override
     public Result insert(GenericDto obj) throws Exception{
         Result result = new Result();
@@ -163,6 +173,14 @@ public class CsvAPI implements IGeneric{
         return result;
     }
 
+    /**
+     *
+     * @param arg
+     * @param value
+     * @param type
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
         Optional<List<GenericDto>> result;
@@ -186,10 +204,22 @@ public class CsvAPI implements IGeneric{
         return  result;    
     }
     
+    /**
+     *
+     * @param type
+     * @return
+     * @throws Exception
+     */
     public Optional<List<GenericDto>> select(ClassType type) throws Exception {
         return  select(null, null, type);   
     }
     
+    /**
+     *
+     * @param type
+     * @return
+     * @throws Exception
+     */
     public Result delete(ClassType type) throws Exception {
         Result result = new Result();
         CsvConfig config = new CsvConfig(type);
@@ -206,25 +236,57 @@ public class CsvAPI implements IGeneric{
         return  result;
     }
 
+    /**
+     *
+     * @param id
+     * @param type
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> getObjectByID(long id, ClassType type) throws Exception {
         return select("id", Long.toString(id), type);
     }
+
+    /**
+     *
+     * @param id
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> getDelayByCreditID(long id) throws Exception {
         return select("credit", Long.toString(id), ClassType.DLY);
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> getPaymentByCreditID(long id) throws Exception {
         return select("credit", Long.toString(id), ClassType.PMT);
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> getApplicationsByTypeID(long id) throws Exception {
         return select("typeCredit", Long.toString(id), ClassType.APP);
     }
 
+    /**
+     *
+     * @param id
+     * @return
+     * @throws Exception
+     */
     @Override
     public Optional<List<GenericDto>> getApplicatonByClientID(long id) throws Exception {
         return select("clientID", Long.toString(id), ClassType.APP);
