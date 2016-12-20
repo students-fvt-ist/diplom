@@ -17,6 +17,7 @@ public class MainTest {
      */
     @Test
     public void testMain() throws IOException {
-        System.out.println(ConfigurationUtil.getConfigurationEntry(Constants.PATH_CSV_STORE));
+        Main.main(new String[]{"csv"});
+     //   System.out.println(ConfigurationUtil.getConfigurationEntry(Constants.PATH_CSV_STORE));
     }    
 }

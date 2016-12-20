@@ -3,6 +3,8 @@ package ru.sfedu.mydiplom;
 import java.io.IOException;
 
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 import java.util.Scanner;
 
 import javax.security.auth.login.Configuration;
@@ -11,6 +13,7 @@ import org.apache.log4j.Logger;
 import static ru.sfedu.mydiplom.Constants.GLOABL_PROR;
 import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.model.dto.ClassType;
+import ru.sfedu.mydiplom.model.dto.GenericDto;
 import ru.sfedu.mydiplom.utils.ConfigurationUtil;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
 
@@ -56,16 +59,16 @@ public class Main {
 //            getConfigurationEntry("a");
        //     log.info(getConfigurationEntry(PATH_CSV_STORE));
       
-            ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
-            log.info("TEST->"+a.getConfigurationEntry(PATH_CSV_STORE));
-            log.info("");
+//            ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
+//            log.info("TEST->"+a.getConfigurationEntry(PATH_CSV_STORE));
+//            log.info("");
 //            getConfigurationEntry(PATH_CSV_STORE);
 //        } catch (IOException e) {
 //            log.error(e+"AAAAaA");
 //        } catch(NullPointerException e) {
 //            log.error(e.getMessage());
 //        }
-//     cli(args[0]);
+     cli(args[0]);
     }
     
     /**
@@ -75,6 +78,7 @@ public class Main {
     public static void cli(String source){
         try{
             Scanner sc = new Scanner(System.in);
+            List<GenericDto> ret;
             String[] query;
             ClassType clss;
             String id;
@@ -103,15 +107,20 @@ public class Main {
             CsvAPI capi = new CsvAPI();
             switch(query[0]){
                 case "select" : 
-                                capi.getObjectByID(0, clss);
+                                ret=capi.getObjectByID(0, clss).get();
+                                for(int i=0; i<ret.size(); i++){
+                                    log.info(ret.get(i));
+                                }
                                 break;
                 case "delete" :
                                 capi.delete("id", id, clss);
+                                log.info("complite delete");
                                 break;
                 default :        
                                 throw new Exception();
                     
             }
+            
         }catch(Exception e){
             log.info("incorect query");
             cli(source);

@@ -1814,3 +1814,4 @@
 12.20:11.10.20TRACE	ru.sfedu.mydiplom.Main:28 - 1482221131228;35000.0;0;20;10.0;1482221131228;0;0
 12.20:11.10.20TRACE	ru.sfedu.mydiplom.Main:28 - 1482221300602;35000.0;0;20;10.0;1482221300602;0;0
 12.20:11.10.21TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found
+12.20:11.32.54 INFO	ru.sfedu.mydiplom.Main:85 - > 
