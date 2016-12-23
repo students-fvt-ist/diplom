@@ -166,9 +166,9 @@ public class Applications extends GenericDto{
 
     @Override
     public String toString() {
-        return id + ";" + sum + ";" + credit + ";" + maturity + ";" + rate + ";" + date + ";" + status + ";" + clientID;
+        return "Applications{" + "sum=" + sum + ", credit=" + credit + ", maturity=" + maturity + ", rate=" + rate + ", date=" + date + ", status=" + status + ", clientID=" + clientID + ", typeCredit=" + typeCredit + '}';
     }
-
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

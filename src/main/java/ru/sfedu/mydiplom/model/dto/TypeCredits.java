@@ -160,8 +160,8 @@ public class TypeCredits extends GenericDto{
 
     @Override
     public String toString() {
-        return "id=" + id;
-    }    
+        return "TypeCredits{" + "name=" + name + ", maturityOf=" + maturityOf + ", maturityUp=" + maturityUp + ", sumOf=" + sumOf + ", sumUp=" + sumUp + ", rateOf=" + rateOf + ", rateUp=" + rateUp + '}';
+    }
 
     @Override
     public boolean equals(Object obj) {

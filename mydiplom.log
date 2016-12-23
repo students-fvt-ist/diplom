@@ -1815,3 +1815,543 @@
 12.20:11.10.20TRACE	ru.sfedu.mydiplom.Main:28 - 1482221300602;35000.0;0;20;10.0;1482221300602;0;0
 12.20:11.10.21TRACE	ru.sfedu.mydiplom.dao.CsvAPI:74 - Record not found
 12.20:11.32.54 INFO	ru.sfedu.mydiplom.Main:85 - > 
+12.23:15.22.51DEBUG	ru.sfedu.mydiplom.Main:31 - <Your constructor name>[0]: starting application.........
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:36 - Launching the application...
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:37 - Operating System: Linux 4.4.0-53-generic
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:41 - JRE: 1.8.0_102
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:42 - Java Launched From: /usr/local/java/jdk1.8.0_102/jre
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:43 - Class Path: /home/seyran/NetBeansProjects/MyDiplom/target/classes:/home/seyran/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/seyran/.m2/repository/com/opencsv/opencsv/3.8/opencsv-3.8.jar:/home/seyran/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar:/home/seyran/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/home/seyran/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/seyran/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/seyran/.m2/repository/org/simpleframework/simple-xml/2.7.1/simple-xml-2.7.1.jar:/home/seyran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/seyran/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar:/home/seyran/.m2/repository/xpp3/xpp3/1.1.3.3/xpp3-1.1.3.3.jar
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:44 - Library Path: /usr/local/java/jdk1.8.0_102/jre/lib/amd64:/usr/local/java/jdk1.8.0_102/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:45 - User Home Directory: /home/seyran
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:46 - User Working Directory: /home/seyran/NetBeansProjects/MyDiplom
+12.23:15.22.51 INFO	ru.sfedu.mydiplom.Main:47 - Test INFO logging.
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374328;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374342;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374350;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374360;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374376;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374393;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374406;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374420;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066374335;200
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383591;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383624;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383642;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383661;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383682;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383704;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383728;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383752;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482066383607;200
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940641;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940670;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940697;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940726;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940755;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940787;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940829;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940863;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482069940897;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077944830;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077944868;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077944905;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077944944;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077944985;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077945026;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077945068;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077945112;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482077945158;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168003;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168050;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168098;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168149;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168200;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168252;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168316;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168372;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482098168428;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028474;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028530;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028589;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028654;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028722;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028784;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028848;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028915;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099028982;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049130;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049199;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049268;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049344;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049417;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049490;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049567;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049648;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099049724;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060270;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060350;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060433;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060515;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060599;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060684;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060767;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060853;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482099060937;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188173752;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188173843;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188173936;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174028;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174122;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174218;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174315;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174418;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482188174516;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130187;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130288;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130392;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130495;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130600;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130713;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130818;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221130925;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221131034;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221299447;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221299559;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221299674;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221299803;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221299917;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221300033;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221300150;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221300266;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221300385;9
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424176;0
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424299;1
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424424;2
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424555;3
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424676;4
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424802;5
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221424926;6
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221425052;7
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221425179;8
+12.23:15.23.36 INFO	ru.sfedu.mydiplom.Main:114 - 1482221425309;9
+12.23:15.26.34 INFO	ru.sfedu.mydiplom.Main:107 - incorect query
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482066374535, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482066374543, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482066374549, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482066374557, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482066374568, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482066374582, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482066374593, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482066374606, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482066374539, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482066383969, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482066383998, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482066384014, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482066384034, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482066384053, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482066384072, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482066384093, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482066384115, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482066383983, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482069941234, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482069941284, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482069941310, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482069941338, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482069941368, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482069941397, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482069941430, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482069941463, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482069941258, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482077945637, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482077945706, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482077945743, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482077945781, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482077945820, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482077945861, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482077945903, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482077945945, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482077945671, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482098168528, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482098168620, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482098168666, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482098168714, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482098168763, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482098168820, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482098168874, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482098168928, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482098168573, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482099049855, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482099049965, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482099050023, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482099050083, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482099050143, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482099050204, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482099050273, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482099050344, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482099049909, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482099061091, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482099061236, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482099061306, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482099061375, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482099061445, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482099061517, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482099061589, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482099061662, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482099061167, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482188174692, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482188174848, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482188174926, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482188175006, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482188175087, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482188175169, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482188175256, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482188175339, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482188174769, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221131228, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221131404, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221131493, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221131583, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221131675, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221131768, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221131860, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221131955, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482221131316, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221300602, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221300798, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221300898, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221300998, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221301095, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221301198, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221301302, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221301407, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482221300700, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=0.0, credit=0, maturity=20, rate=10.0, date=1482221425440, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221425548, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=70000.0, credit=0, maturity=20, rate=10.0, date=1482221425657, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221425766, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221425877, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221425987, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221426099, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221426211, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221426325, status=0, clientID=0, typeCredit=0}
+12.23:15.26.43 INFO	ru.sfedu.mydiplom.Main:114 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221426442, status=0, clientID=0, typeCredit=0}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=200, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=200, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=0, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=1, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=2, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=3, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=4, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=5, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=6, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=7, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=8, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.50 INFO	ru.sfedu.mydiplom.Main:114 - Clients{dateOfBirth=9, status=0, passportNumber=0, salary=0.0, experience=0.0, experienceOfLastWP=0.0, totalGain=0.0, conviction=true, working=true, changedPassport=true, name=Name, placeOfWorking=Work, addres=Street, phone=234567, workPhone=276543, passportData=pd, otherDocument=null}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374198, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374208, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374214, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374224, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374247, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374267, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374278, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374293, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066374203, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383404, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383432, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383447, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383464, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383483, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383502, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383523, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383545, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482066383417, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940353, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940408, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940433, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940460, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940488, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940518, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940548, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940579, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482069940383, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944440, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944510, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944546, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944585, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944624, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944664, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944705, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944747, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482077944474, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167508, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167599, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167646, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167693, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167742, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167792, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167845, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167896, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482098167553, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099027878, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099027993, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028053, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028109, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028168, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028228, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028288, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099028350, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099027936, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048437, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048567, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048634, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048706, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048775, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048845, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048915, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048988, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099048502, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059484, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059634, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059710, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059787, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059866, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059946, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099060027, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099060109, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482099059559, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188172854, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173027, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173115, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173204, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173291, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173380, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173471, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188173565, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482188172941, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129182, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129376, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129473, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129572, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129671, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129772, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129874, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129978, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221129279, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298345, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298555, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298664, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298773, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298883, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298992, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221299103, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221299216, credit=9}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221298450, credit=200}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221422966, credit=0}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423081, credit=1}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423199, credit=2}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423317, credit=3}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423436, credit=4}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423556, credit=5}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423680, credit=6}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423801, credit=7}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221423924, credit=8}
+12.23:15.26.57 INFO	ru.sfedu.mydiplom.Main:114 - Payments{date=1482221424048, credit=9}
+12.23:15.33.45 INFO	ru.sfedu.mydiplom.Main:90 - incorect query
+12.23:15.33.49 INFO	ru.sfedu.mydiplom.Main:90 - incorect query
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482066374535, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482066374543, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482066374549, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482066374557, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482066374568, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482066374582, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482066374593, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482066374606, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482066374539, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482066383969, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482066383998, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482066384014, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482066384034, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482066384053, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482066384072, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482066384093, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482066384115, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482066383983, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482069941234, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482069941284, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482069941310, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482069941338, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482069941368, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482069941397, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482069941430, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482069941463, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482069941258, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482077945637, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482077945706, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482077945743, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482077945781, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482077945820, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482077945861, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482077945903, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482077945945, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482077945671, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482098168528, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482098168620, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482098168666, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482098168714, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482098168763, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482098168820, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482098168874, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482098168928, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482098168573, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482099049855, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482099049965, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482099050023, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482099050083, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482099050143, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482099050204, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482099050273, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482099050344, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482099049909, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482099061091, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482099061236, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482099061306, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482099061375, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482099061445, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482099061517, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482099061589, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482099061662, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482099061167, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482188174692, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482188174848, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482188174926, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482188175006, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482188175087, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482188175169, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482188175256, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482188175339, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482188174769, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221131228, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221131404, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221131493, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221131583, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221131675, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221131768, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221131860, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221131955, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482221131316, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221300602, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221300798, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221300898, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221300998, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221301095, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221301198, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221301302, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221301407, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=7000000.0, credit=0, maturity=20, rate=10.0, date=1482221300700, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=0.0, credit=0, maturity=20, rate=10.0, date=1482221425440, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=35000.0, credit=0, maturity=20, rate=10.0, date=1482221425548, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=70000.0, credit=0, maturity=20, rate=10.0, date=1482221425657, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=105000.0, credit=0, maturity=20, rate=10.0, date=1482221425766, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=140000.0, credit=0, maturity=20, rate=10.0, date=1482221425877, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=175000.0, credit=0, maturity=20, rate=10.0, date=1482221425987, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=210000.0, credit=0, maturity=20, rate=10.0, date=1482221426099, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=245000.0, credit=0, maturity=20, rate=10.0, date=1482221426211, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=280000.0, credit=0, maturity=20, rate=10.0, date=1482221426325, status=0, clientID=0, typeCredit=0}
+12.23:15.37.07 INFO	ru.sfedu.mydiplom.Main:117 - Applications{sum=315000.0, credit=0, maturity=20, rate=10.0, date=1482221426442, status=0, clientID=0, typeCredit=0}

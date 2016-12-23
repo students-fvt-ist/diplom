@@ -52,8 +52,8 @@ public class Main {
      * @param args
      */
     public static void main(String[] args) throws IOException{
-    //    Main mdc=new Main();
-    //    mdc.logBasicSystemInfo();
+      //  Main mdc=new Main();
+      //  mdc.logBasicSystemInfo();
         // TODO исправить Proporties
 //        try {
 //            getConfigurationEntry("a");
@@ -68,7 +68,7 @@ public class Main {
 //        } catch(NullPointerException e) {
 //            log.error(e.getMessage());
 //        }
-     cli(args[0]);
+     cli("asd");
     }
     
     /**
@@ -78,12 +78,18 @@ public class Main {
     public static void cli(String source){
         try{
             Scanner sc = new Scanner(System.in);
-            List<GenericDto> ret;
+            CsvAPI  capi = new CsvAPI();
+            Optional<List<GenericDto>> ret;
             String[] query;
             ClassType clss;
-            String id;
-            log.info("> ");
             query=divide(sc.nextLine());
+            if("exit".equals(query[0])){
+                return;
+            }
+            if (query.length>2){
+                log.info("incorect query");
+                throw new Exception();
+            }
             switch(query[1]){
                 case "app" :
                             clss=ClassType.APP;
@@ -101,28 +107,22 @@ public class Main {
                             clss=ClassType.DLY;
                             break;
                 default:        
+                            log.info("incorect query");
                             throw new Exception();
             }
-            id=query[2];
-            CsvAPI capi = new CsvAPI();
             switch(query[0]){
                 case "select" : 
-                                ret=capi.getObjectByID(0, clss).get();
-                                for(int i=0; i<ret.size(); i++){
-                                    log.info(ret.get(i));
+                                ret = capi.select(clss);
+                                for(int i=0; i<ret.get().size(); i++){
+                                    log.info(ret.get().get(i));
                                 }
                                 break;
-                case "delete" :
-                                capi.delete("id", id, clss);
-                                log.info("complite delete");
-                                break;
                 default :        
+                                log.info("incorect query");
                                 throw new Exception();
-                    
             }
-            
+            cli(source);
         }catch(Exception e){
-            log.info("incorect query");
             cli(source);
         }
     }

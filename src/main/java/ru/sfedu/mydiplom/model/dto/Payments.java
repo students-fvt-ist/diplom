@@ -65,7 +65,7 @@ public class Payments extends GenericDto{
 
     @Override
     public String toString() {
-        return id+";"+date;
+        return "Payments{" + "date=" + date + ", credit=" + credit + '}';
     }
 
     @Override

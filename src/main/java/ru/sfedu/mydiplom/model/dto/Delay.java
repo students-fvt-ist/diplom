@@ -85,9 +85,9 @@ public class Delay extends GenericDto{
 
     @Override
     public String toString() {
-        return id + ";" + credit + ";" + date + ";" + sum;
+        return "Delay{" + "credit=" + credit + ", date=" + date + ", sum=" + sum + '}';
     }
-
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {

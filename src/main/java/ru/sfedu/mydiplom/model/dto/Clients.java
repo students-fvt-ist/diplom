@@ -348,12 +348,12 @@ public class Clients extends GenericDto{
     public void setOtherDocument(String otherDocument) {
         this.otherDocument = otherDocument;
     }
-    
+
     @Override
     public String toString() {
-        return + id + ";" + dateOfBirth;
+        return "Clients{" + "dateOfBirth=" + dateOfBirth + ", status=" + status + ", passportNumber=" + passportNumber + ", salary=" + salary + ", experience=" + experience + ", experienceOfLastWP=" + experienceOfLastWP + ", totalGain=" + totalGain + ", conviction=" + conviction + ", working=" + working + ", changedPassport=" + changedPassport + ", name=" + name + ", placeOfWorking=" + placeOfWorking + ", addres=" + addres + ", phone=" + phone + ", workPhone=" + workPhone + ", passportData=" + passportData + ", otherDocument=" + otherDocument + '}';
     }
-
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
