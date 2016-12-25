@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
  * @author seyran
  */
 public class CsvFilter implements CsvToBeanFilter{
-    private static final Logger log = Logger.getLogger(CsvConfig.class);
+    private static final Logger log = Logger.getLogger(CsvFilter.class);
     private final MappingStrategy strategy;
     private String arg;
     private String value;

@@ -1,6 +1,8 @@
 package ru.sfedu.mydiplom;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +14,7 @@ import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import org.apache.log4j.Logger;
 import static ru.sfedu.mydiplom.Constants.GLOABL_PROR;
 import ru.sfedu.mydiplom.dao.CsvAPI;
+import ru.sfedu.mydiplom.model.dto.Applications;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 import ru.sfedu.mydiplom.model.dto.GenericDto;
 import ru.sfedu.mydiplom.utils.ConfigurationUtil;
@@ -22,7 +25,7 @@ import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
  * @author seyran
  */
 public class Main {
-    private static Logger log = Logger.getLogger(Main.class);
+    private static final Logger log = Logger.getLogger(Main.class);
 
     /**
      *
@@ -50,25 +53,12 @@ public class Main {
     /**
      *
      * @param args
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException{
-      //  Main mdc=new Main();
-      //  mdc.logBasicSystemInfo();
-        // TODO исправить Proporties
-//        try {
-//            getConfigurationEntry("a");
-       //     log.info(getConfigurationEntry(PATH_CSV_STORE));
-      
-//            ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
-//            log.info("TEST->"+a.getConfigurationEntry(PATH_CSV_STORE));
-//            log.info("");
-//            getConfigurationEntry(PATH_CSV_STORE);
-//        } catch (IOException e) {
-//            log.error(e+"AAAAaA");
-//        } catch(NullPointerException e) {
-//            log.error(e.getMessage());
-//        }
-     cli("asd");
+        Main mdc=new Main();
+        mdc.logBasicSystemInfo();
+        cli("csv");
     }
     
     /**
@@ -77,12 +67,12 @@ public class Main {
      */
     public static void cli(String source){
         try{
-            Scanner sc = new Scanner(System.in);
             CsvAPI  capi = new CsvAPI();
             Optional<List<GenericDto>> ret;
             String[] query;
             ClassType clss;
-            query=divide(sc.nextLine());
+            log.info(">");
+            query=divide(System.console().readLine());
             if("exit".equals(query[0])){
                 return;
             }
@@ -123,6 +113,7 @@ public class Main {
             }
             cli(source);
         }catch(Exception e){
+            log.info(e.getMessage());
             cli(source);
         }
     }
@@ -133,7 +124,7 @@ public class Main {
      * @return
      */
     public static String[] divide(String s) {
-        ArrayList<String> tmp = new ArrayList<String>();
+        ArrayList<String> tmp = new ArrayList<>();
         int i = 0;
         boolean f = false;
 

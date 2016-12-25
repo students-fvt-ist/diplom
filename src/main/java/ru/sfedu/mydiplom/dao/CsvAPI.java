@@ -1,23 +1,29 @@
 
 package ru.sfedu.mydiplom.dao;
 
-import ru.sfedu.mydiplom.utils.CsvDeleteFilter;
-import ru.sfedu.mydiplom.utils.CsvConfig;
-import ru.sfedu.mydiplom.utils.CsvFilter;
+import ru.sfedu.mydiplom.utils.*;
+import static ru.sfedu.mydiplom.utils.ConfigurationUtil.getConfigurationEntry;
+
 import ru.sfedu.mydiplom.model.dto.*;
 import ru.sfedu.mydiplom.model.*;
 import ru.sfedu.mydiplom.exception.*;
+
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.BeanToCsv;
+import com.opencsv.bean.ColumnPositionMappingStrategy;
 import com.opencsv.bean.CsvToBean;
+
 import java.io.FileReader;
 import java.io.FileWriter;
+
 import java.util.List;
 import java.util.Optional;
 import static java.util.Optional.*;
+
 import org.apache.log4j.Logger;
-import ru.sfedu.mydiplom.model.dto.ClassType;
+
+import static ru.sfedu.mydiplom.Constants.*;
 
 /**
  *
@@ -40,22 +46,22 @@ public class CsvAPI implements IGeneric{
     @Override
     public Result insert(GenericDto obj) throws Exception{
         Result result = new Result();
-        CsvConfig config = new CsvConfig(obj);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
+        ClassType classType = obj.getTypeClass();
+        CSVReader reader = new CSVReader(new FileReader(getFile(classType)));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
-            CsvFilter filter = new CsvFilter(config.getStrategy());
-            List<GenericDto> list=ctb.parse(config.getStrategy(), reader, filter); // Вызывает ошибку!
+            CsvFilter filter = new CsvFilter(getStrategy(classType));
+            List<GenericDto> list=ctb.parse(getStrategy(classType), reader, filter); // Вызывает ошибку!
             for (GenericDto current : list) {
                 if(current.getId()==obj.getId()){
                     throw new RecordExistException(current.getId());
                 }
             }
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
+            CSVWriter writer=new CSVWriter(new FileWriter(getFile(classType)));
             try {
                 list.add(obj);
-                btc.write(config.getStrategy(), writer, list);
+                btc.write(getStrategy(classType), writer, list);
                 writer.close();
             }catch(Exception e){
                 writer.close();
@@ -91,18 +97,18 @@ public class CsvAPI implements IGeneric{
     @Override
     public Result update(GenericDto object) throws Exception {
         Result result = new Result();
-        CsvConfig config = new CsvConfig(object);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
+        ClassType classType = object.getTypeClass();
+        CSVReader reader = new CSVReader(new FileReader(getFile(classType)));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
-            CsvFilter filter = new CsvFilter(config.getStrategy());
-            List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter);
+            CsvFilter filter = new CsvFilter(getStrategy(classType));
+            List<GenericDto> list = ctb.parse(getStrategy(classType), reader, filter);
             if(!list.remove(object)) throw new RecordNotFoundException(object.getId());  
             list.add(object);
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
+            CSVWriter writer=new CSVWriter(new FileWriter(getFile(classType)));
             try {
-                btc.write(config.getStrategy(), writer, list);
+                btc.write(getStrategy(classType), writer, list);
                 writer.close();
             }catch(Exception e){
                 writer.close();
@@ -138,17 +144,16 @@ public class CsvAPI implements IGeneric{
     @Override
     public Result delete(String arg, String value, ClassType type) throws Exception {
         Result result = new Result();
-        CsvConfig config = new CsvConfig(type);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
+        CSVReader reader = new CSVReader(new FileReader(getFile(type)));
         try {
             BeanToCsv btc = new BeanToCsv();
             CsvToBean ctb = new CsvToBean();
-            CsvDeleteFilter filter = new CsvDeleteFilter(config.getStrategy(), arg, value);
-            List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter); 
+            CsvDeleteFilter filter = new CsvDeleteFilter(getStrategy(type), arg, value);
+            List<GenericDto> list = ctb.parse(getStrategy(type), reader, filter); 
             if (list.isEmpty()) {throw new RecordNotFoundException(0);}
-            CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
+            CSVWriter writer=new CSVWriter(new FileWriter(getFile(type)));
             try {
-                btc.write(config.getStrategy(), writer, list);
+                btc.write(getStrategy(type), writer, list);
                 writer.close();
             }catch(Exception e){
                 writer.close();
@@ -184,12 +189,11 @@ public class CsvAPI implements IGeneric{
     @Override
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
         Optional<List<GenericDto>> result;
-        CsvConfig config = new CsvConfig(type);
-        CSVReader reader = new CSVReader(new FileReader(config.getFile()));
+        CSVReader reader = new CSVReader(new FileReader(getFile(type)));
         try {
             CsvToBean ctb = new CsvToBean();
-            CsvFilter filter = new CsvFilter(config.getStrategy(), arg, value);
-            List<GenericDto> list = ctb.parse(config.getStrategy(), reader, filter);
+            CsvFilter filter = new CsvFilter(getStrategy(type), arg, value);
+            List<GenericDto> list = ctb.parse(getStrategy(type), reader, filter);
             if(list.isEmpty()) throw new RecordNotFoundException(0);
             result = ofNullable(list);
             reader.close();
@@ -222,8 +226,7 @@ public class CsvAPI implements IGeneric{
      */
     public Result delete(ClassType type) throws Exception {
         Result result = new Result();
-        CsvConfig config = new CsvConfig(type);
-        CSVWriter writer=new CSVWriter(new FileWriter(config.getFile()));
+        CSVWriter writer=new CSVWriter(new FileWriter(getFile(type)));
         try {
             result.setStatus(StatusType.OK.toString());
             writer.close();
@@ -292,4 +295,55 @@ public class CsvAPI implements IGeneric{
         return select("clientID", Long.toString(id), ClassType.APP);
     }
     
+    private ColumnPositionMappingStrategy getStrategy(ClassType type) throws Exception{
+        ColumnPositionMappingStrategy strategy = new ColumnPositionMappingStrategy();
+        switch(type){
+            case APP :  
+                        strategy.setType(Applications.class);
+                        break;
+            case CLT : 
+                        strategy.setType(Clients.class);
+                        break;
+            case PMT : 
+                        strategy.setType(Payments.class);
+                        break;
+            case TCD : 
+                        strategy.setType(TypeCredits.class);
+                        break;
+            case DLY : 
+                        strategy.setType(Delay.class);
+                        break;
+            default : 
+                        log.error("it is impossible to determine the type of the class"); 
+                        throw new Exception("it is impossible to determine the type of the class");
+        }
+        strategy.setColumnMapping(type.getDescription());
+        return strategy;
+    }
+    
+    private String getFile(ClassType type) throws Exception{
+        ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
+        String file=a.getConfigurationEntry(PATH_CSV_STORE);
+        switch(type){
+            case APP :  
+                        file+="Applications"+".csv";
+                        break;
+            case CLT : 
+                        file+="Clients"+".csv";
+                        break;
+            case PMT : 
+                        file+="Payments"+".csv";
+                        break;
+            case TCD : 
+                        file+="Typecredits"+".csv";
+                        break;
+            case DLY : 
+                        file+="Delay"+".csv";
+                        break;
+            default : 
+                        log.error("it is impossible to determine the type of the class"); 
+                        throw new Exception("it is impossible to determine the type of the class");
+        }
+        return file;
+    }
 }
