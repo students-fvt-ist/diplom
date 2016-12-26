@@ -15,31 +15,6 @@ public class Constants {
     /**
      *
      */
-    public static final String APPLICATION_FILE_NAME="applications.csv";
-
-    /**
-     *
-     */
-    public static final String CLIENTS_FILE_NAME="clients.csv";
-
-    /**
-     *
-     */
-    public static final String PAYMENTS_FILE_NAME="payments.csv";
-
-    /**
-     *
-     */
-    public static final String TYPECREDITS_FILE_NAME="typecredits.csv";
-
-    /**
-     *
-     */
-    public static final String DELAY_FILE_NAME="delay.csv";
-
-    /**
-     *
-     */
     public static final String[] COLUMNS_APP = new String[] {"id", "sum", "credit", "maturity", "rate", "date", "status", "clientID", "typeCredit"};
 
     /**

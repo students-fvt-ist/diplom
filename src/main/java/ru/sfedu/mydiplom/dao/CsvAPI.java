@@ -322,28 +322,8 @@ public class CsvAPI implements IGeneric{
     }
     
     private String getFile(ClassType type) throws Exception{
-        ConfigurationUtil a = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
-        String file=a.getConfigurationEntry(PATH_CSV_STORE);
-        switch(type){
-            case APP :  
-                        file+="Applications"+".csv";
-                        break;
-            case CLT : 
-                        file+="Clients"+".csv";
-                        break;
-            case PMT : 
-                        file+="Payments"+".csv";
-                        break;
-            case TCD : 
-                        file+="Typecredits"+".csv";
-                        break;
-            case DLY : 
-                        file+="Delay"+".csv";
-                        break;
-            default : 
-                        log.error("it is impossible to determine the type of the class"); 
-                        throw new Exception("it is impossible to determine the type of the class");
-        }
+        String file=getConfigurationEntry(PATH_CSV_STORE);
+        file+=type.toString()+".csv";
         return file;
     }
 }

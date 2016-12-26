@@ -19,6 +19,7 @@ import ru.sfedu.mydiplom.model.dto.ClassType;
 import ru.sfedu.mydiplom.model.dto.GenericDto;
 import ru.sfedu.mydiplom.utils.ConfigurationUtil;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
+import sun.reflect.generics.tree.ClassTypeSignature;
 
 /**
  *
@@ -56,6 +57,7 @@ public class Main {
      * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException{
+        ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
         cli("csv");
@@ -71,7 +73,7 @@ public class Main {
             Optional<List<GenericDto>> ret;
             String[] query;
             ClassType clss;
-            log.info(">");
+            log.info("\n>");
             query=divide(System.console().readLine());
             if("exit".equals(query[0])){
                 return;
