@@ -82,26 +82,7 @@ public class Main {
                 log.info("incorect query");
                 throw new Exception();
             }
-            switch(query[1]){
-                case "app" :
-                            clss=ClassType.APP;
-                            break;
-                case "clt" : 
-                            clss=ClassType.CLT;
-                            break;
-                case "pmt" : 
-                            clss=ClassType.PMT;
-                            break;
-                case "tcd" : 
-                            clss=ClassType.TCD;
-                            break;
-                case "dly" : 
-                            clss=ClassType.DLY;
-                            break;
-                default:        
-                            log.info("incorect query");
-                            throw new Exception();
-            }
+            clss = ClassType.valueOf(query[1].toUpperCase());
             switch(query[0]){
                 case "select" : 
                                 ret = capi.select(clss);
