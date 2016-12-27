@@ -1,9 +1,6 @@
 package ru.sfedu.mydiplom.dao;
 
 import ru.sfedu.mydiplom.model.dto.*;
-import ru.sfedu.mydiplom.model.dto.GenericDto;
-import com.opencsv.bean.ColumnPositionMappingStrategy;
-import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
@@ -26,11 +23,11 @@ public class CsvAPIInsertTest {
             Result result;
             Applications obj;
             expResult.setStatus(StatusType.OK.toString());
-            for (int i = 0; i < 10; i++) {
-                obj = new Applications(i*35000, 0, 20, 10, System.currentTimeMillis(), 0, 0, 0, System.currentTimeMillis());
-                result = instance.insert(obj);
-                assertEquals(expResult.getStatus(), result.getStatus());
-            }
+//            for (int i = 0; i < 10; i++) {
+//                obj = new Applications(i*35000, 0, 20, 10, System.currentTimeMillis(), 0, 0, 0, System.currentTimeMillis());
+//                result = instance.insert(obj);
+//                assertEquals(expResult.getStatus(), result.getStatus());
+//            }
         } catch (Exception e) {
             log.error("Error: "+e);
             throw e;
