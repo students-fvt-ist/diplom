@@ -1,6 +1,8 @@
 package ru.sfedu.mydiplom;
 
 import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -67,7 +69,7 @@ public class Main {
      *
      * @param source
      */
-    public static void cli(String source){
+    public static void cli(String source) throws IOException{
         try{
             CsvAPI  capi = new CsvAPI();
             Optional<List<GenericDto>> ret;
@@ -94,6 +96,22 @@ public class Main {
                                 log.info("incorect query");
                                 throw new Exception();
             }
+            cli(source);
+        }catch(FileNotFoundException e){
+            String store=getConfigurationEntry(PATH_CSV_STORE);
+            File folder = new File(store);
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+            ClassType[] cts = ClassType.values();
+            for (ClassType ct : cts) {
+                String file = ct.toString() + ".csv";
+                File f = new File(folder, file);
+                if(!f.exists()){
+                    f.createNewFile();
+                }
+            }
+            log.info(e.getMessage());
             cli(source);
         }catch(Exception e){
             log.info(e.getMessage());

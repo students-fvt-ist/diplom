@@ -6,7 +6,7 @@ package ru.sfedu.mydiplom;
  */
 public class Constants {
 
-    public static String GLOABL_PROR = "ru.sfedu.mydiplom.prop";
+    public static final String GLOABL_PROR = "ru.sfedu.mydiplom.prop";
     /**
      *
      */
