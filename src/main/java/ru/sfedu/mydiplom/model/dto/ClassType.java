@@ -11,34 +11,36 @@ public enum ClassType {
     /**
      *
      */
-    APP(COLUMNS_APP),
+    APP(COLUMNS_APP, Applications.class),
 
     /**
      *
      */
-    CLT(COLUMNS_CLT),
+    CLT(COLUMNS_CLT, Clients.class),
 
     /**
      *
      */
-    PMT(COLUMNS_PMT),
+    PMT(COLUMNS_PMT, Payments.class),
 
     /**
      *
      */
-    TCD(COLUMNS_TCD),
+    TCD(COLUMNS_TCD, TypeCredits.class),
 
     /**
      *
      */
-    DLY(COLUMNS_DLY);
+    DLY(COLUMNS_DLY, Delay.class);
     
     private String[] description;
+    private Class cl;
     private ClassType() {
     }
 
-    private ClassType(String[] description) {
+    private ClassType(String[] description, Class cl) {
         this.description = description;
+        this.cl=cl;
     }
 
     @Override
@@ -52,6 +54,10 @@ public enum ClassType {
      */
     public String[] getDescription() {
         return description;
+    }
+
+    public Class getCl() {
+        return cl;
     }
     
 }

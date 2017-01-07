@@ -44,7 +44,7 @@ public class CsvAPIInsertTest {
             Clients obj = null;
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
-                obj = new Clients(System.currentTimeMillis(), i, 0, 0, 0, 0, 0, 0, true, true, true, "Name", "Work", "Street", "234567", "276543", "pd", "null");
+                obj = new Clients(System.currentTimeMillis(), i, 0, 0, 0, 0, 0, 0, true, false, true, "Name", "Work", "Street", "234567", "276543", "pd", "null");
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }

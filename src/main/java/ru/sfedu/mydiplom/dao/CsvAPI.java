@@ -297,26 +297,7 @@ public class CsvAPI implements IGeneric{
     
     private ColumnPositionMappingStrategy getStrategy(ClassType type) throws Exception{
         ColumnPositionMappingStrategy strategy = new ColumnPositionMappingStrategy();
-        switch(type){
-            case APP :  
-                        strategy.setType(Applications.class);
-                        break;
-            case CLT : 
-                        strategy.setType(Clients.class);
-                        break;
-            case PMT : 
-                        strategy.setType(Payments.class);
-                        break;
-            case TCD : 
-                        strategy.setType(TypeCredits.class);
-                        break;
-            case DLY : 
-                        strategy.setType(Delay.class);
-                        break;
-            default : 
-                        log.error("it is impossible to determine the type of the class"); 
-                        throw new Exception("it is impossible to determine the type of the class");
-        }
+        strategy.setType(type.getCl());
         strategy.setColumnMapping(type.getDescription());
         return strategy;
     }
