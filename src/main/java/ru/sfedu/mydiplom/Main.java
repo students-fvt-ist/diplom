@@ -44,4 +44,82 @@ public class Main {
         
     }
     
+    /**
+     *
+     * @param source
+     * @throws java.io.IOException
+     */
+    public static void cli(String source) throws IOException{
+        try{
+            CsvAPI  capi = new CsvAPI();
+            Optional<List<GenericDto>> ret;
+            String[] query;
+            ClassType clss;
+            log.info("\n>");
+            query=divide(System.console().readLine());
+            if("exit".equals(query[0])){
+                return;
+            }
+            if (query.length>2){
+                log.info("incorect query");
+                throw new Exception();
+            }
+            clss = ClassType.valueOf(query[1].toUpperCase());
+            switch(query[0]){
+                case "select" : 
+                                ret = capi.select(clss);
+                                for(int i=0; i<ret.get().size(); i++){
+                                    log.info(ret.get().get(i));
+                                }
+                                break;
+                default :        
+                                log.info("incorect query");
+                                throw new Exception();
+            }
+            cli(source);
+        }catch(FileNotFoundException e){
+            String store=getConfigurationEntry(PATH_CSV_STORE);
+            File folder = new File(store);
+            if (!folder.exists()) {
+                folder.mkdirs();
+            }
+            ClassType[] cts = ClassType.values();
+            for (ClassType ct : cts) {
+                String file = ct.toString() + ".csv";
+                File f = new File(folder, file);
+                if(!f.exists()){
+                    f.createNewFile();
+                }
+            }
+            log.info(e.getMessage());
+            cli(source);
+        }catch(Exception e){
+            log.info(e.getMessage());
+            cli(source);
+        }
+    }
+    
+    /**
+     *
+     * @param s
+     * @return
+     */
+    public static String[] divide(String s) {
+        ArrayList<String> tmp = new ArrayList<>();
+        int i = 0;
+        boolean f = false;
+
+        for (int j = 0; j < s.length(); j++) {
+            if (s.charAt(j) == ' ') {
+                if (j > i) {
+                    tmp.add(s.substring(i, j));
+                }
+                i = j + 1;
+            }
+        }
+        if (i < s.length()) {
+            tmp.add(s.substring(i));
+        }
+        return tmp.toArray(new String[tmp.size()]);
+    }
 }
