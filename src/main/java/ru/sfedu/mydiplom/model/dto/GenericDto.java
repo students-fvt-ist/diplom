@@ -1,13 +1,17 @@
 package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.Attribute;
+import org.simpleframework.xml.*;
 
 /**
  *
  * @author seyran
  */
 public class GenericDto implements Serializable{
+    @Attribute
     long id=1l;
+    @Attribute
     private  ClassType typeClass;
 
     /**

@@ -1,14 +1,20 @@
 package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.*;
 
 /**
  *
  * @author seyran
  */
+@Element
 public class Delay extends GenericDto{
+    @Element
     private long credit;
+    @Element
     private long date;
+    @Element
     private float sum;
 
     /**
