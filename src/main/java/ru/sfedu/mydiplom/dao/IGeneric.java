@@ -48,44 +48,4 @@ public interface IGeneric {
      */
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type)throws Exception; 
     
-    /**
-     *
-     * @param id
-     * @param type
-     * @return
-     * @throws Exception
-     */
-    public Optional<List<GenericDto>> getObjectByID(long id, ClassType type) throws Exception;
-
-    /**
-     *
-     * @param id
-     * @return
-     * @throws Exception
-     */
-    public Optional<List<GenericDto>> getDelayByCreditID(long id) throws Exception;
-
-    /**
-     *
-     * @param id
-     * @return
-     * @throws Exception
-     */
-    public Optional<List<GenericDto>> getPaymentByCreditID(long id) throws Exception;
-
-    /**
-     *
-     * @param id
-     * @return
-     * @throws Exception
-     */
-    public Optional<List<GenericDto>> getApplicationsByTypeID(long id) throws Exception;
-
-    /**
-     *
-     * @param id
-     * @return
-     * @throws Exception
-     */
-    public Optional<List<GenericDto>> getApplicatonByClientID(long id) throws Exception;
 }

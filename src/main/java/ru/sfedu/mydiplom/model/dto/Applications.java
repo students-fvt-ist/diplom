@@ -8,11 +8,10 @@ import java.io.Serializable;
  */
 public class Applications extends GenericDto{
 	private float sum;
-	private long credit;
 	private int maturity;
 	private float rate;
 	private long date;
-	private int status;
+	private ApplicationStatusType status;
 	private long clientID;
         private long typeCredit;
 
@@ -28,7 +27,6 @@ public class Applications extends GenericDto{
     /**
      *
      * @param sum
-     * @param credit
      * @param maturity
      * @param rate
      * @param date
@@ -38,10 +36,9 @@ public class Applications extends GenericDto{
      * @param id
      * @throws InterruptedException
      */
-    public Applications(float sum, long credit, int maturity, float rate, long date, int status, long clientID, long typeCredit, long id) throws InterruptedException {
+    public Applications(float sum, int maturity, float rate, long date, ApplicationStatusType status, long clientID, long typeCredit, long id) throws InterruptedException {
         super(ClassType.APP, id);
         this.sum = sum;
-        this.credit = credit;
         this.maturity = maturity;
         this.rate = rate;
         this.date = date;
@@ -78,20 +75,6 @@ public class Applications extends GenericDto{
      */
     public void setSum(float sum) {
         this.sum = sum;
-    }
-
-    /**
-     * @return the credit
-     */
-    public long getCredit() {
-        return credit;
-    }
-
-    /**
-     * @param credit the credit to set
-     */
-    public void setCredit(long credit) {
-        this.credit = credit;
     }
 
     /**
@@ -139,14 +122,14 @@ public class Applications extends GenericDto{
     /**
      * @return the status
      */
-    public int getStatus() {
+    public ApplicationStatusType getStatus() {
         return status;
     }
 
     /**
      * @param status the status to set
      */
-    public void setStatus(int status) {
+    public void setStatus(ApplicationStatusType status) {
         this.status = status;
     }
 
@@ -166,7 +149,7 @@ public class Applications extends GenericDto{
 
     @Override
     public String toString() {
-        return "Applications{" + "sum=" + sum + ", credit=" + credit + ", maturity=" + maturity + ", rate=" + rate + ", date=" + date + ", status=" + status + ", clientID=" + clientID + ", typeCredit=" + typeCredit + '}';
+        return "Applications{" + "sum=" + sum + ", maturity=" + maturity + ", rate=" + rate + ", date=" + date + ", status=" + status + ", clientID=" + clientID + ", typeCredit=" + typeCredit + '}';
     }
     
     @Override

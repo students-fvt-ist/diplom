@@ -8,29 +8,10 @@ import static ru.sfedu.mydiplom.Constants.*;
  */
 public enum ClassType {
 
-    /**
-     *
-     */
     APP(COLUMNS_APP, Applications.class),
-
-    /**
-     *
-     */
     CLT(COLUMNS_CLT, Clients.class),
-
-    /**
-     *
-     */
     PMT(COLUMNS_PMT, Payments.class),
-
-    /**
-     *
-     */
     TCD(COLUMNS_TCD, TypeCredits.class),
-
-    /**
-     *
-     */
     DLY(COLUMNS_DLY, Delay.class);
     
     private String[] description;

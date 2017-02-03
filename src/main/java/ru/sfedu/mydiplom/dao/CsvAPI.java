@@ -246,7 +246,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> getObjectByID(long id, ClassType type) throws Exception {
         return select("id", Long.toString(id), type);
     }
@@ -257,7 +256,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> getDelayByCreditID(long id) throws Exception {
         return select("credit", Long.toString(id), ClassType.DLY);
     }
@@ -268,7 +266,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> getPaymentByCreditID(long id) throws Exception {
         return select("credit", Long.toString(id), ClassType.PMT);
     }
@@ -279,7 +276,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> getApplicationsByTypeID(long id) throws Exception {
         return select("typeCredit", Long.toString(id), ClassType.APP);
     }
@@ -290,7 +286,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> getApplicatonByClientID(long id) throws Exception {
         return select("clientID", Long.toString(id), ClassType.APP);
     }
