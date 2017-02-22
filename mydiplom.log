@@ -10581,3 +10581,11 @@
 01.07:06.57.40 INFO	ru.sfedu.mydiplom.Main:118 - 
 02.22:16.36.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
 Message: Premature end of file.file is empty
+02.22:17.15.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.15.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.15.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.15.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty

@@ -1,4 +1,4 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.dao.csv;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import ru.sfedu.mydiplom.*;
+import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.model.*;
 import ru.sfedu.mydiplom.model.dto.Applications;
 import ru.sfedu.mydiplom.model.dto.ClassType;

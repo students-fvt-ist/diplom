@@ -1,10 +1,11 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.dao.csv;
 
 import java.util.List;
 import java.util.Optional;
 import org.apache.log4j.Logger;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.exception.RecordNotFoundException;
 import ru.sfedu.mydiplom.model.Result;
 import ru.sfedu.mydiplom.model.StatusType;
