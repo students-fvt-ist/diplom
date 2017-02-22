@@ -11,7 +11,6 @@ import org.apache.log4j.Logger;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 import static ru.sfedu.mydiplom.Constants.*;
-import ru.sfedu.mydiplom.Main;
 import ru.sfedu.mydiplom.model.Result;
 import ru.sfedu.mydiplom.model.StatusType;
 import ru.sfedu.mydiplom.model.dto.*;
@@ -65,7 +64,7 @@ public class XmlAPI implements IGeneric{
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
         Optional<List<GenericDto>> result;
         List<GenericDto> list;
-        ContainerDelay container = new ContainerDelay();
+        ContainerDelay container;
         Serializer serializer = new Persister();
         File xmFile = new File(getFile(type));
         container = serializer.read(ContainerDelay.class, xmFile);

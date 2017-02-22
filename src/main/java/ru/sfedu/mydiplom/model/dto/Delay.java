@@ -1,9 +1,7 @@
 package ru.sfedu.mydiplom.model.dto;
 
-import java.io.Serializable;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.*;
-import org.simpleframework.xml.core.Replace;
 
 @Root
 public class Delay extends GenericDto{

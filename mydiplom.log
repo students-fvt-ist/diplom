@@ -10589,3 +10589,30 @@ Message: Premature end of file.file is empty
 Message: Premature end of file.file is empty
 02.22:17.15.30 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
 Message: Premature end of file.file is empty
+02.22:17.34.58 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.42.08ERROR	ru.sfedu.mydiplom.dao.CsvAPI:212 - Error parsing CSV line: 2 values: [1482066374535, 35000.0, 0, 20, 10.0, 1482066374535, 0, 0, 0]
+02.22:17.42.08TRACE	ru.sfedu.mydiplom.dao.CsvAPI:208 - Record not found
+02.22:17.42.08TRACE	ru.sfedu.mydiplom.dao.CsvAPI:43 - Record not found
+02.22:17.42.08TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
+02.22:17.42.09ERROR	ru.sfedu.mydiplom.dao.CsvAPI:182 - Error parsing CSV line: 2 values: [1482066374535, 35000.0, 0, 20, 10.0, 1482066374535, 0, 0, 0]
+02.22:17.42.15ERROR	ru.sfedu.mydiplom.dao.CsvAPI:92 - Error parsing CSV line: 2 values: [1482066374535, 35000.0, 0, 20, 10.0, 1482066374535, 0, 0, 0]
+02.22:17.42.15ERROR	ru.sfedu.mydiplom.Main:33 - Error: java.lang.RuntimeException: Error parsing CSV line: 2 values: [1482066374535, 35000.0, 0, 20, 10.0, 1482066374535, 0, 0, 0]
+02.22:17.42.17 INFO	ru.sfedu.mydiplom.dao.XmlAPI:35 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.44.55 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.45.57 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.47.24 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.51.09 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[3,8]
+Message: The content of elements must consist of well-formed character data or markup.file is empty
+02.22:17.51.09 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.file is empty
+02.22:17.51.09 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[3,8]
+Message: The content of elements must consist of well-formed character data or markup.file is empty
+02.22:17.51.10 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[3,8]
+Message: The content of elements must consist of well-formed character data or markup.file is empty
+02.22:17.51.10 INFO	ru.sfedu.mydiplom.dao.XmlAPI:36 - ParseError at [row,col]:[3,8]
+Message: The content of elements must consist of well-formed character data or markup.file is empty
