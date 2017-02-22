@@ -1,5 +1,6 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import ru.sfedu.mydiplom.model.*;
@@ -18,7 +19,7 @@ public interface IGeneric {
      * @return
      * @throws Exception
      */
-    public Result insert(GenericDto object)throws Exception; 
+    public Result insert(ArrayList<GenericDto> object)throws Exception; 
 
     /**
      *

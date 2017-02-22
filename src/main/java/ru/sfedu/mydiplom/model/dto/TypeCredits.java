@@ -1,18 +1,24 @@
 package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
-/**
- *
- * @author seyran
- */
+@Root
 public class TypeCredits extends GenericDto{
+    @Element
     private String name;
+    @Element
     private int maturityOf;
+    @Element
     private int maturityUp;
+    @Element
     private float sumOf;
+    @Element
     private float sumUp;
+    @Element
     private float rateOf;
+    @Element
     private float rateUp;
 
     /**

@@ -16,6 +16,7 @@ import com.opencsv.bean.CsvToBean;
 
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.util.ArrayList;
 
 import java.util.List;
 import java.util.Optional;
@@ -36,14 +37,20 @@ public class CsvAPI implements IGeneric{
      *
      */
     public CsvAPI() {}
-        
-    /**
-     *
-     * @param obj
-     * @return
-     * @throws Exception
-     */
+    
+    
     @Override
+    public Result insert(ArrayList<GenericDto> list) throws Exception {
+        Result result = new Result();
+        for (int i = 0; i < list.size(); i++) {
+            result=insert(list.get(i));
+            if (!result.equals(StatusType.OK.toString())) {
+                throw new Exception(result.getErrorMsg() + " ststus: " + result.getStatus());
+            }
+        }
+        return result;
+    }
+    
     public Result insert(GenericDto obj) throws Exception{
         Result result = new Result();
         ClassType classType = obj.getTypeClass();

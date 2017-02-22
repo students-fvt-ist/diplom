@@ -1,13 +1,14 @@
 package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
-/**
- *
- * @author seyran
- */
+@Root
 public class Payments extends GenericDto{
+    @Element
     private long date;
+    @Element
     private long credit;
     
     /**

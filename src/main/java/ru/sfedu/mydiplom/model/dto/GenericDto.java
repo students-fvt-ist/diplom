@@ -3,11 +3,8 @@ package ru.sfedu.mydiplom.model.dto;
 import java.io.Serializable;
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.*;
+import org.simpleframework.xml.core.Replace;
 
-/**
- *
- * @author seyran
- */
 public class GenericDto implements Serializable{
     @Attribute
     long id=1l;

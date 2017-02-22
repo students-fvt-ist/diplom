@@ -1,19 +1,29 @@
 package ru.sfedu.mydiplom.model.dto;
 
 import java.io.Serializable;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
 /**
  *
  * @author seyran
  */
+@Root
 public class Applications extends GenericDto{
-	private float sum;
-	private int maturity;
-	private float rate;
-	private long date;
-	private ApplicationStatusType status;
-	private long clientID;
-        private long typeCredit;
+    @Element
+    private float sum;
+    @Element
+    private int maturity;
+    @Element
+    private float rate;
+    @Element
+    private long date;
+    @Element
+    private ApplicationStatusType status;
+    @Element
+    private long clientID;
+    @Element
+    private long typeCredit;
 
     /**
      *

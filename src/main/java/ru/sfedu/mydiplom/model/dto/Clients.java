@@ -1,29 +1,44 @@
 
 package ru.sfedu.mydiplom.model.dto;
 
-import java.io.Serializable;
+import org.simpleframework.xml.Element;
+import org.simpleframework.xml.Root;
 
-/**
- *
- * @author seyran
- */
+@Root
 public class Clients extends GenericDto{
+    @Element
     private long dateOfBirth;
+    @Element
     private int status;
+    @Element
     private int passportNumber;
+    @Element
     private float salary;
+    @Element
     private float experience;
+    @Element
     private float experienceOfLastWP;
+    @Element
     private float totalGain;
+    @Element
     private boolean conviction;
+    @Element
     private boolean working;
+    @Element
     private boolean changedPassport;
+    @Element
     private String name;
+    @Element
     private String placeOfWorking;
+    @Element
     private String addres;
+    @Element
     private String phone;
+    @Element
     private String workPhone;
+    @Element
     private String passportData;
+    @Element
     private String otherDocument;
 
     /**
