@@ -1,13 +1,38 @@
 package ru.sfedu.mydiplom;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStreamReader;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+import java.util.Scanner;
+
+import javax.security.auth.login.Configuration;
 import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import org.apache.log4j.Logger;
+import static ru.sfedu.mydiplom.Constants.GLOABL_PROR;
+import ru.sfedu.mydiplom.dao.CsvAPI;
+import ru.sfedu.mydiplom.model.dto.Applications;
+import ru.sfedu.mydiplom.model.dto.ClassType;
+import ru.sfedu.mydiplom.model.dto.GenericDto;
+import ru.sfedu.mydiplom.utils.ConfigurationUtil;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
+import sun.reflect.generics.tree.ClassTypeSignature;
 
+/**
+ *
+ * @author seyran
+ */
 public class Main {
-    private static Logger log = Logger.getLogger(Main.class);
+    private static final Logger log = Logger.getLogger(Main.class);
 
+    /**
+     *
+     */
     public Main() {
         log.debug("<Your constructor name>[0]: starting application.........");
 
@@ -28,20 +53,16 @@ public class Main {
         log.info("Test INFO logging.");
 }
     
-    public static void main(String[] args) {
+    /**
+     *
+     * @param args
+     * @throws java.io.IOException
+     */
+    public static void main(String[] args) throws IOException{
+        ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
-        // TODO исправить Proporties
-//        try {
-//            getConfigurationEntry("a");
-//            System.out.println(getConfigurationEntry(PATH_CSV_STORE)+"ASDASD");
-//            getConfigurationEntry(PATH_CSV_STORE);
-//        } catch (IOException e) {
-//            log.error(e+"AAAAaA");
-//        } catch(NullPointerException e) {
-//            log.error(e.getMessage());
-//        }
-        
+        cli("csv");
     }
     
     /**

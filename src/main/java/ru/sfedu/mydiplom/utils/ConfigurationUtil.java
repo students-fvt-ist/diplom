@@ -1,5 +1,7 @@
 package ru.sfedu.mydiplom.utils;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
@@ -14,15 +16,22 @@ public class ConfigurationUtil {
 
     private static final String DEFAULT_CONFIG_PATH = "mydiplom.properties";
     private static final Properties configuration = new Properties();
-
+    private static String pathEnv;
     /**
      * Hides default constructor
      */
     private ConfigurationUtil() {
+        pathEnv = DEFAULT_CONFIG_PATH;
     }
-
+    
+    public ConfigurationUtil(String pathTofile){
+        this.pathEnv = pathTofile;
+    }
     
     private static Properties getConfiguration() throws IOException {
+        if(pathEnv==null){
+            pathEnv = DEFAULT_CONFIG_PATH;
+        }
         if(configuration.isEmpty()){
             loadConfiguration();
         }
@@ -34,7 +43,9 @@ public class ConfigurationUtil {
      * @throws IOException In case of the configuration file read failure
      */
     private static void loadConfiguration() throws IOException{
-        InputStream in = DEFAULT_CONFIG_PATH.getClass().getResourceAsStream(DEFAULT_CONFIG_PATH);
+        
+        File nf = new File(pathEnv);
+        InputStream in = new FileInputStream(nf);//utStream nf.getpathEnv.getClass().getResourceAsStream(pathEnv);
         try {
             configuration.load(in);
         } catch (IOException ex) {

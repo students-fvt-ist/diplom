@@ -9,4 +9,11 @@ Without this configuration present, some functionality in the IDE may be limited
     <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
         <word>mydiplom</word>
     </spellchecker-wordlist>
+    <config-data xmlns="http://www.netbeans.org/ns/maven-config-data/1">
+        <configurations>
+            <configuration id="test" profiles="">
+                <property name="a">2</property>
+            </configuration>
+        </configurations>
+    </config-data>
 </project-shared-configuration>

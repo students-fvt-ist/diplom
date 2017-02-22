@@ -1,13 +1,11 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.dao.csv;
 
 import ru.sfedu.mydiplom.model.dto.*;
-import ru.sfedu.mydiplom.model.dto.GenericDto;
-import com.opencsv.bean.ColumnPositionMappingStrategy;
-import java.util.ArrayList;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 import ru.sfedu.mydiplom.*;
+import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.model.*;
 
 public class CsvAPIInsertTest {
@@ -27,7 +25,7 @@ public class CsvAPIInsertTest {
             Applications obj;
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
-                obj = new Applications(i*35000, 0, 20, 10, System.currentTimeMillis(), 0, 0, 0, System.currentTimeMillis());
+                obj = new Applications(i*35000, 20, 10, System.currentTimeMillis(), ApplicationStatusType.APP, 0, 0, System.currentTimeMillis());
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }
@@ -47,7 +45,7 @@ public class CsvAPIInsertTest {
             Clients obj = null;
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
-                obj = new Clients(System.currentTimeMillis(), i, 0, 0, 0, 0, 0, 0, true, true, true, "Name", "Work", "Street", "234567", "276543", "pd", "null");
+                obj = new Clients(System.currentTimeMillis(), i, 0, 0, 0, 0, 0, 0, true, false, true, "Name", "Work", "Street", "234567", "276543", "pd", "null");
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }

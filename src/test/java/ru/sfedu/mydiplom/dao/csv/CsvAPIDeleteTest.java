@@ -1,7 +1,8 @@
-package ru.sfedu.mydiplom.dao;
+package ru.sfedu.mydiplom.dao.csv;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.model.Result;
 import ru.sfedu.mydiplom.model.StatusType;
 import ru.sfedu.mydiplom.model.dto.ClassType;
