@@ -4,15 +4,8 @@ import java.util.ArrayList;
 import org.junit.Test;
 import ru.sfedu.mydiplom.dao.XmlAPI;
 import static org.junit.Assert.*;
-import ru.sfedu.mydiplom.model.Result;
-import ru.sfedu.mydiplom.model.StatusType;
-import ru.sfedu.mydiplom.model.dto.ApplicationStatusType;
-import ru.sfedu.mydiplom.model.dto.Applications;
-import ru.sfedu.mydiplom.model.dto.Clients;
-import ru.sfedu.mydiplom.model.dto.Delay;
-import ru.sfedu.mydiplom.model.dto.GenericDto;
-import ru.sfedu.mydiplom.model.dto.Payments;
-import ru.sfedu.mydiplom.model.dto.TypeCredits;
+import ru.sfedu.mydiplom.model.*;
+import ru.sfedu.mydiplom.model.dto.*;
 
 public class XmlAPIInsertTest {
     @Test

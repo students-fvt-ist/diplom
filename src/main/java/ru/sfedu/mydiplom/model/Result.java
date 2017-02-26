@@ -16,6 +16,14 @@ public class Result {
      */
     public Result() {
     }
+    
+    public Result(String status) {
+        this.status = status;
+    }
+    
+    public Result(String status, String errorMsg) {
+        this.errorMsg = errorMsg;
+    }
 
     /**
      * @return the status

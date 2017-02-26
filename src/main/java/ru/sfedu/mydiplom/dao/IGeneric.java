@@ -31,22 +31,18 @@ public interface IGeneric {
 
     /**
      *
-     * @param arg
-     * @param value
-     * @param type
+     * @param object 
      * @return
      * @throws Exception
      */
-    public Result delete(String arg, String value, ClassType type)throws Exception;  
+    public Result delete(GenericDto object)throws Exception;  
 
     /**
      *
-     * @param arg
-     * @param value
      * @param type
      * @return
      * @throws Exception
      */
-    public Optional<List<GenericDto>> select(String arg, String value, ClassType type)throws Exception; 
+    public Optional<List<GenericDto>> select(ClassType type)throws Exception; 
     
 }

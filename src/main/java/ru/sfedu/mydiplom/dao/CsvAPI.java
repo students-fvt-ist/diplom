@@ -148,7 +148,6 @@ public class CsvAPI implements IGeneric{
      * @return Result
      * @throws Exception
      */
-    @Override
     public Result delete(String arg, String value, ClassType type) throws Exception {
         Result result = new Result();
         CSVReader reader = new CSVReader(new FileReader(getFile(type)));
@@ -184,6 +183,12 @@ public class CsvAPI implements IGeneric{
         }
         return result;
     }
+    
+    
+    @Override
+    public Result delete(GenericDto object) throws Exception {
+        return delete("id", Long.toString(object.getId()), object.getTypeClass());
+    }
 
     /**
      *
@@ -193,7 +198,6 @@ public class CsvAPI implements IGeneric{
      * @return
      * @throws Exception
      */
-    @Override
     public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
         Optional<List<GenericDto>> result;
         CSVReader reader = new CSVReader(new FileReader(getFile(type)));

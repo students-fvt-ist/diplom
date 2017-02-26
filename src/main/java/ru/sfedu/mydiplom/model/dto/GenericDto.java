@@ -53,6 +53,4 @@ public class GenericDto implements Serializable{
     public void setTypeClass(ClassType typeClass) {
         this.typeClass = typeClass;
     }
-    
-    
 }

@@ -1,6 +1,5 @@
 package ru.sfedu.mydiplom.model.dto;
 
-import java.io.Serializable;
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
 
@@ -27,7 +26,6 @@ public class Applications extends GenericDto{
 
     /**
      *
-     * @throws java.lang.InterruptedException
      * @throws InterruptedException
      */
     public Applications() throws InterruptedException{
@@ -162,6 +160,8 @@ public class Applications extends GenericDto{
         return "Applications{" + "sum=" + sum + ", maturity=" + maturity + ", rate=" + rate + ", date=" + date + ", status=" + status + ", clientID=" + clientID + ", typeCredit=" + typeCredit + '}';
     }
     
+    
+ /*   
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -178,6 +178,6 @@ public class Applications extends GenericDto{
             return false;
         }
         return true;
-    }
+    }*/
     
 }
