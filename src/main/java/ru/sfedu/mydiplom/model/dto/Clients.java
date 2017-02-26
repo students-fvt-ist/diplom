@@ -369,22 +369,22 @@ public class Clients extends GenericDto{
         return "Clients{" + "dateOfBirth=" + dateOfBirth + ", status=" + status + ", passportNumber=" + passportNumber + ", salary=" + salary + ", experience=" + experience + ", experienceOfLastWP=" + experienceOfLastWP + ", totalGain=" + totalGain + ", conviction=" + conviction + ", working=" + working + ", changedPassport=" + changedPassport + ", name=" + name + ", placeOfWorking=" + placeOfWorking + ", addres=" + addres + ", phone=" + phone + ", workPhone=" + workPhone + ", passportData=" + passportData + ", otherDocument=" + otherDocument + '}';
     }
     
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Clients other = (Clients) obj;
-        if (this.id != other.id) {
-            return false;
-        }
-        return true;
-    }
+//    @Override
+//    public boolean equals(Object obj) {
+//        if (this == obj) {
+//            return true;
+//        }
+//        if (obj == null) {
+//            return false;
+//        }
+//        if (getClass() != obj.getClass()) {
+//            return false;
+//        }
+//        final Clients other = (Clients) obj;
+//        if (this.id != other.id) {
+//            return false;
+//        }
+//        return true;
+//    }
     
 }

@@ -13,7 +13,7 @@ public class XmlAPISelectTest {
     @Test
     public void testSelectApplication() throws Exception {
         Optional<List<GenericDto>> result;
-        System.out.println("insert application");
+        System.out.println("select application");
         XmlAPI instance = new XmlAPI();
         try {
             result = instance.select(ClassType.APP);
@@ -29,7 +29,7 @@ public class XmlAPISelectTest {
     @Test
     public void testSelectClient() throws Exception {
         Optional<List<GenericDto>> result;
-        System.out.println("insert client");
+        System.out.println("select client");
         XmlAPI instance = new XmlAPI();
         try {
             result = instance.select(ClassType.CLT);
@@ -45,7 +45,7 @@ public class XmlAPISelectTest {
     @Test
     public void testSelectDelay() throws Exception {
         Optional<List<GenericDto>> result;
-        System.out.println("insert delay");
+        System.out.println("select delay");
         XmlAPI instance = new XmlAPI();
         try {
             result = instance.select(ClassType.DLY);
@@ -61,7 +61,7 @@ public class XmlAPISelectTest {
     @Test
     public void testSelectPayment() throws Exception {
         Optional<List<GenericDto>> result;
-        System.out.println("insert payment");
+        System.out.println("select payment");
         XmlAPI instance = new XmlAPI();
         try {
             result = instance.select(ClassType.PMT);
@@ -77,7 +77,7 @@ public class XmlAPISelectTest {
     @Test
     public void testSelectTypeCredits() throws Exception {
         Optional<List<GenericDto>> result;
-        System.out.println("insert type credits");
+        System.out.println("select type credits");
         XmlAPI instance = new XmlAPI();
         try {
             result = instance.select(ClassType.TCD);

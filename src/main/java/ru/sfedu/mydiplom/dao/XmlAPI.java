@@ -1,6 +1,5 @@
 package ru.sfedu.mydiplom.dao;
 
-import ru.sfedu.mydiplom.model.container.ContainerDelay;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +10,7 @@ import org.apache.log4j.Logger;
 import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 import static ru.sfedu.mydiplom.Constants.*;
-import ru.sfedu.mydiplom.model.Result;
-import ru.sfedu.mydiplom.model.StatusType;
+import ru.sfedu.mydiplom.model.*;
 import ru.sfedu.mydiplom.model.dto.*;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.getConfigurationEntry;
 
@@ -23,7 +21,7 @@ public class XmlAPI implements IGeneric{
     @Override
     public Result insert(ArrayList<GenericDto> objects) throws Exception {
         Optional readValueOptional;
-        ContainerDelay container = new ContainerDelay();
+        ContainerBean container = new ContainerBean();
         if (objects.isEmpty()) {
             throw new Exception("Not object in List");
         }
@@ -37,7 +35,7 @@ public class XmlAPI implements IGeneric{
         return insert(container);
     }
     
-    private Result insert(ContainerDelay object) throws Exception {
+    private Result insert(ContainerBean object) throws Exception {
         Result result = new Result();
         
         Serializer serializer = new Persister();
@@ -52,29 +50,62 @@ public class XmlAPI implements IGeneric{
 
     @Override
     public Result update(GenericDto object) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        Result result = new Result();
+        try{
+            result=delete(object);
+            if(!result.getStatus().equals(StatusType.OK.toString())){
+                throw new Exception(result.getErrorMsg());
+            }
+            ArrayList<GenericDto> list = new ArrayList<>();
+            list.add(object);
+            result=insert(list);
+            if(!result.getStatus().equals(StatusType.OK.toString())){
+                throw new Exception(result.getErrorMsg());
+            }
+        }catch(Exception e){
+            result.setStatus(StatusType.ERROR.toString());
+            result.setErrorMsg(e.getMessage());
+            throw e;
+        }
+        return result;
     }
 
     @Override
-    public Result delete(String arg, String value, ClassType type) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Result delete(GenericDto object) throws Exception {
+        Result result = new Result();
+                try {
+                    Serializer serializer = new Persister();
+                    ContainerBean container = new ContainerBean();
+                    List<GenericDto> list;
+                    Optional<List<GenericDto>> rv = select(object.getTypeClass());
+                    list = rv.get();
+                    if(list.isEmpty()){
+                        throw new Exception("File is empty");
+                    }
+                    list.remove(select(object.getTypeClass()).get().get(0));
+                    container.setContainer(list);
+                    File file = new File(getFile(list.get(0).getTypeClass()));
+                    serializer.write(container, file);
+                    result.setStatus(StatusType.OK.toString());
+                } catch (Exception e) {
+                    result.setStatus(StatusType.ERROR.toString());
+                    result.setErrorMsg("Error : " + e.getMessage());
+                    throw e;
+                }
+        return result;    
     }
-
+    
     @Override
-    public Optional<List<GenericDto>> select(String arg, String value, ClassType type) throws Exception {
+    public Optional<List<GenericDto>> select(ClassType type) throws Exception {
         Optional<List<GenericDto>> result;
         List<GenericDto> list;
-        ContainerDelay container;
+        ContainerBean container;
         Serializer serializer = new Persister();
         File xmFile = new File(getFile(type));
-        container = serializer.read(ContainerDelay.class, xmFile);
+        container = serializer.read(ContainerBean.class, xmFile);
         list = container.getContainer();
         result=ofNullable(list);
         return result;
-    }
-    
-    public Optional<List<GenericDto>> select(ClassType type) throws Exception {
-        return select(null, null, type);
     }
     
     private String getFile(ClassType type) throws Exception{

@@ -69,22 +69,22 @@ public class Payments extends GenericDto{
         return "Payments{" + "date=" + date + ", credit=" + credit + '}';
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null) {
-            return false;
-        }
-        if (getClass() != obj.getClass()) {
-            return false;
-        }
-        final Payments other = (Payments) obj;
-        if (this.id != other.id) {
-            return false;
-        }
-        return true;
-    }
+//    @Override
+//    public boolean equals(Object obj) {
+//        if (this == obj) {
+//            return true;
+//        }
+//        if (obj == null) {
+//            return false;
+//        }
+//        if (getClass() != obj.getClass()) {
+//            return false;
+//        }
+//        final Payments other = (Payments) obj;
+//        if (this.id != other.id) {
+//            return false;
+//        }
+//        return true;
+//    }
     
 }
