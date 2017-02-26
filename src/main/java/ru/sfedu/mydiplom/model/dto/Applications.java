@@ -18,7 +18,7 @@ public class Applications extends GenericDto{
     @Element
     private long date;
     @Element
-    private ApplicationStatusType status;
+    private String status;
     @Element
     private long clientID;
     @Element
@@ -50,7 +50,7 @@ public class Applications extends GenericDto{
         this.maturity = maturity;
         this.rate = rate;
         this.date = date;
-        this.status = status;
+        this.status = status.getDescription();
         this.clientID = clientID;
         this.typeCredit = typeCredit;
     }
@@ -131,14 +131,14 @@ public class Applications extends GenericDto{
      * @return the status
      */
     public ApplicationStatusType getStatus() {
-        return status;
+        return ApplicationStatusType.valueOf(status);
     }
 
     /**
      * @param status the status to set
      */
     public void setStatus(ApplicationStatusType status) {
-        this.status = status;
+        this.status = status.getDescription();
     }
 
     /**
