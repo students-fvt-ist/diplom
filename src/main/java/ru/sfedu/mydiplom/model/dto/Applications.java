@@ -24,11 +24,7 @@ public class Applications extends GenericDto{
     @Element
     private long typeCredit;
 
-    /**
-     *
-     * @throws InterruptedException
-     */
-    public Applications() throws InterruptedException{
+    public Applications(){
         super(ClassType.APP, 1l);
     }
 
@@ -44,13 +40,13 @@ public class Applications extends GenericDto{
      * @param id
      * @throws InterruptedException
      */
-    public Applications(float sum, int maturity, float rate, long date, ApplicationStatusType status, long clientID, long typeCredit, long id) throws InterruptedException {
+    public Applications(float sum, int maturity, float rate, long date, String status, long clientID, long typeCredit, long id) throws InterruptedException {
         super(ClassType.APP, id);
         this.sum = sum;
         this.maturity = maturity;
         this.rate = rate;
         this.date = date;
-        this.status = status.getDescription();
+        this.status = status;
         this.clientID = clientID;
         this.typeCredit = typeCredit;
     }
@@ -130,15 +126,15 @@ public class Applications extends GenericDto{
     /**
      * @return the status
      */
-    public ApplicationStatusType getStatus() {
-        return ApplicationStatusType.valueOf(status);
+    public String getStatus() {
+        return status;
     }
 
     /**
      * @param status the status to set
      */
-    public void setStatus(ApplicationStatusType status) {
-        this.status = status.getDescription();
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     /**

@@ -17,7 +17,7 @@ public class XmlAPIInsertTest {
         expResult.setStatus(StatusType.OK.toString());
         ArrayList<GenericDto> list = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
-            list.add(new Applications(i, i, i, i, ApplicationStatusType.APP, i, i, System.currentTimeMillis()));
+            list.add(new Applications(i, i, i, i, ApplicationStatusType.APP.toString(), i, i, System.currentTimeMillis()));
         }
         result = instance.insert(list);
         

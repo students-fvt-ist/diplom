@@ -11,17 +11,15 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
-import javax.security.auth.login.Configuration;
-import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import org.apache.log4j.Logger;
 import static ru.sfedu.mydiplom.Constants.GLOABL_PROR;
+import static ru.sfedu.mydiplom.Constants.PATH_CSV_STORE;
 import ru.sfedu.mydiplom.dao.CsvAPI;
 import ru.sfedu.mydiplom.model.dto.Applications;
 import ru.sfedu.mydiplom.model.dto.ClassType;
 import ru.sfedu.mydiplom.model.dto.GenericDto;
 import ru.sfedu.mydiplom.utils.ConfigurationUtil;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.*;
-import sun.reflect.generics.tree.ClassTypeSignature;
 
 /**
  *
@@ -59,7 +57,7 @@ public class Main {
      * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException{
-        ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
+     //   ConfigurationUtil configurationUtil = new ConfigurationUtil(System.getProperty(GLOABL_PROR));
         Main mdc=new Main();
         mdc.logBasicSystemInfo();
         cli("csv");

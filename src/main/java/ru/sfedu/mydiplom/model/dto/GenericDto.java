@@ -14,12 +14,10 @@ public class GenericDto implements Serializable{
      *
      * @param typeClass
      * @param id
-     * @throws InterruptedException
      */
-    public GenericDto(ClassType typeClass, long id) throws InterruptedException {
+    public GenericDto(ClassType typeClass, long id){
         this.typeClass=typeClass;
         this.id = id;
-        Thread.sleep(1);
     }
 
     /**

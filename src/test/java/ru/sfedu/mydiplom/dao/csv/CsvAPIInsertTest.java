@@ -25,7 +25,7 @@ public class CsvAPIInsertTest {
             Applications obj;
             expResult.setStatus(StatusType.OK.toString());
             for (int i = 0; i < 10; i++) {
-                obj = new Applications(i*35000, 20, 10, System.currentTimeMillis(), ApplicationStatusType.APP, 0, 0, System.currentTimeMillis());
+                obj = new Applications(i*35000, 20, 10, System.currentTimeMillis(), ApplicationStatusType.APP.toString(), 0, 0, System.currentTimeMillis());
                 result = instance.insert(obj);
                 assertEquals(expResult.getStatus(), result.getStatus());
             }
