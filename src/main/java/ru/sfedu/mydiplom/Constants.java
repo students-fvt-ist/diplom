@@ -6,6 +6,7 @@ package ru.sfedu.mydiplom;
  */
 public class Constants {
     public static final String GLOABL_PROR = "ru.sfedu.mydiplom.prop";
+    public static final String HIBERNATE_CONF = "ru.sfedu.hibernate.conf";
     public static final String PATH_CSV_STORE = "ru.sfedu.path.csv_store";
     public static final String PATH_XML_STORE = "ru.sfedu.path.xml_store";
     public static final String DATA_BASE_URL = "ru.sfedu.db.url";

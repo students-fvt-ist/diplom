@@ -3143,3 +3143,206 @@
 03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219561567
 03.06:23.56.00TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
 03.06:23.56.01 INFO	ru.sfedu.mydiplom.dao.CsvAPI:176 - Record not found sum : 0.0
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761488
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136622821
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137603133
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137760237
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137826437
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137880353
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219566695
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761527
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136616685
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137596686
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137753477
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137819285
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137872785
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219559043
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761148
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136618706
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137598824
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137755710
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137821622
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137875220
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219561567
+03.07:00.09.16 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761280
+03.07:00.09.16TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.09.17TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.18ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Applications`, CONSTRAINT `Applications_ibfk_1` FOREIGN KEY (`clientID`) REFERENCES `Clients` (`id`) ON DELETE CASCADE)
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.18ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Delay`, CONSTRAINT `Delay_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.09.18TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.09.18ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761488
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834557034
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136622821
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137603133
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137760237
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137826437
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137880353
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219566695
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761527
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834557057
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136616685
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137596686
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137753477
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137819285
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137872785
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219559043
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761148
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834556820
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136618706
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137598824
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137755710
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137821622
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137875220
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219561567
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761280
+03.07:00.49.19 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834556864
+03.07:00.49.19TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.20ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Applications`, CONSTRAINT `Applications_ibfk_1` FOREIGN KEY (`clientID`) REFERENCES `Clients` (`id`) ON DELETE CASCADE)
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.49.20TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.21ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Delay`, CONSTRAINT `Delay_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.07:00.49.21TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.21TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:00.49.21TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:00.49.21ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.07:00.58.20TRACE	ru.sfedu.mydiplom.Main:63 - 
+03.07:01.00.27TRACE	ru.sfedu.mydiplom.Main:64 - pusto
+03.07:01.07.45TRACE	ru.sfedu.mydiplom.Main:63 - /home/seyran/hibernate.cfg,xml
+03.07:01.08.12TRACE	ru.sfedu.mydiplom.Main:63 - /home/seyran/hibernate.cfg.xml
+03.07:01.10.03 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761488
+03.07:01.10.03 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834557034
+03.07:01.10.03 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488836960125
+03.07:01.10.03 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136622821
+03.07:01.10.03 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137603133
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137760237
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137826437
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137880353
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219566695
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761527
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834557057
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488836960152
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136616685
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137596686
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137753477
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137819285
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137872785
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219559043
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761148
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834556820
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488836959882
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136618706
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137598824
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137755710
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137821622
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137875220
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219561567
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488833761280
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488834556864
+03.07:01.10.04 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488836959948
+03.07:01.10.04TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
+03.07:01.10.04TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:281 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:323 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:126 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:139 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:229 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:241 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:161 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:173 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Applications`, CONSTRAINT `Applications_ibfk_1` FOREIGN KEY (`clientID`) REFERENCES `Clients` (`id`) ON DELETE CASCADE)
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Delay`, CONSTRAINT `Delay_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.07:01.10.05ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
