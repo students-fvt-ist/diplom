@@ -3120,3 +3120,26 @@
 02.28:04.49.36TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
 02.28:04.49.36TRACE	ru.sfedu.mydiplom.dao.DbAPI:195 - Conection with DB
 02.28:04.49.36TRACE	ru.sfedu.mydiplom.dao.DbAPI:207 - Not conection with DB
+03.06:23.56.00TRACE	ru.sfedu.mydiplom.dao.CsvAPI:212 - Record not found
+03.06:23.56.00TRACE	ru.sfedu.mydiplom.dao.CsvAPI:212 - Record not found
+03.06:23.56.00TRACE	ru.sfedu.mydiplom.dao.CsvAPI:43 - Record not found
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136622821
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137603133
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137760237
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137826437
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137880353
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219566695
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136616685
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137596686
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137753477
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137819285
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137872785
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219559043
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488136618706
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137598824
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137755710
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137821622
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488137875220
+03.06:23.56.00 WARN	ru.sfedu.mydiplom.dao.CsvAPI:133 - Line not found with objects ID:1488219561567
+03.06:23.56.00TRACE	ru.sfedu.mydiplom.dao.CsvAPI:75 - Record not found
+03.06:23.56.01 INFO	ru.sfedu.mydiplom.dao.CsvAPI:176 - Record not found sum : 0.0
