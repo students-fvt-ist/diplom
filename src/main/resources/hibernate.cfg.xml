@@ -11,13 +11,15 @@
     <property name="hibernate.current_session_context_class">thread</property>
     <property name="hibernate.cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</property>
     <property name="hibernate.show_sql">false</property>
-    <property name="hibernate.hbm2ddl.auto">create-drop</property>
+    <property name="hibernate.hbm2ddl.auto">create</property>
     <mapping package="ru.sfedu.mydiplom.model.dto"/>
     <mapping class="ru.sfedu.mydiplom.model.dto.Applications"/>
     <mapping class="ru.sfedu.mydiplom.model.dto.Clients"/>
     <mapping class="ru.sfedu.mydiplom.model.dto.Delay"/>
     <mapping class="ru.sfedu.mydiplom.model.dto.Payments"/>
     <mapping class="ru.sfedu.mydiplom.model.dto.TypeCredits"/>
+    <mapping class="ru.sfedu.mydiplom.model.dto.TestEntity" />
     <mapping resource="named-queries.hbm.xml"/>
+    <mapping/>
   </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <sql-query name = "GET_TABLIES_QUERY">show tables</sql-query>
+    <sql-query name = "GET_USERS_QUERY">select user, host from mysql.user</sql-query>
+    <sql-query name = "GET_DATA_LENGTH">select sum(data_length/1024/1024) from information_schema.tables</sql-query>
+</hibernate-mapping>

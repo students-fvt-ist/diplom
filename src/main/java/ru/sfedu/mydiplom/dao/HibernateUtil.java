@@ -1,12 +1,16 @@
 package ru.sfedu.mydiplom.dao;
 
 import java.io.File;
+import java.io.IOException;
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;
+import org.hibernate.boot.MetadataSources;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import static ru.sfedu.mydiplom.Constants.HIBERNATE_CONF;
+import ru.sfedu.mydiplom.model.dto.*;
+import static ru.sfedu.mydiplom.utils.ConfigurationUtil.getConfigurationEntry;
 
 public class HibernateUtil {
     
@@ -19,7 +23,12 @@ private static ServiceRegistry serviceRegistry;
     */
     private static SessionFactory configureSessionFactory() throws HibernateException {
         Configuration configuration;
-        String path = System.getProperty(HIBERNATE_CONF);
+        String path;
+        try {
+            path = getConfigurationEntry(HIBERNATE_CONF);
+        }catch(IOException e){
+            path=null;
+        }
         if (path == null){
             configuration = new Configuration().configure();
         }else{
@@ -27,7 +36,16 @@ private static ServiceRegistry serviceRegistry;
             configuration = new Configuration().configure(file);
         }
         serviceRegistry = new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
-        return configuration.buildSessionFactory(serviceRegistry);
+        MetadataSources source = new MetadataSources(serviceRegistry)
+                .addAnnotatedClass(Applications.class)
+                .addAnnotatedClass(Clients.class)
+                .addAnnotatedClass(Delay.class)
+                .addAnnotatedClass(Payments.class)
+                .addAnnotatedClass(TypeCredits.class)
+                .addAnnotatedClass(TestEntity.class)
+                .addResource("named-queries.hbm.xml");
+        SessionFactory sessionFactory = source.buildMetadata().buildSessionFactory();
+        return sessionFactory;
     }
 
     /**
