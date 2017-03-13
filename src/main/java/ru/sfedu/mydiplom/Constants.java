@@ -1,9 +1,5 @@
 package ru.sfedu.mydiplom;
 
-/**
- *
- * @author seyran
- */
 public class Constants {
     public static final String GLOABL_PROR = "ru.sfedu.mydiplom.prop";
     public static final String HIBERNATE_CONF = "ru.sfedu.hibernate.conf";

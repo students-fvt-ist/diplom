@@ -8,7 +8,7 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import static ru.sfedu.mydiplom.Constants.HIBERNATE_CONF;
+import static ru.sfedu.mydiplom.Constants.*;
 import ru.sfedu.mydiplom.model.dto.*;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.getConfigurationEntry;
 
@@ -21,7 +21,7 @@ private static ServiceRegistry serviceRegistry;
     * Создание фабрики
     * @throws HibernateException
     */
-    private static SessionFactory configureSessionFactory() throws HibernateException {
+    private static SessionFactory configureSessionFactory() throws HibernateException{
         Configuration configuration;
         String path;
         try {

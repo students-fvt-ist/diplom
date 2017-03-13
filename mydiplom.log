@@ -3346,3 +3346,23 @@
 03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
 03.07:01.10.05TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
 03.07:01.10.05ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.29.42ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Applications`, CONSTRAINT `Applications_ibfk_1` FOREIGN KEY (`clientID`) REFERENCES `Clients` (`id`) ON DELETE CASCADE)
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.29.42ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Delay`, CONSTRAINT `Delay_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.13:20.29.42TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.29.42ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.30.13ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Applications`, CONSTRAINT `Applications_ibfk_1` FOREIGN KEY (`clientID`) REFERENCES `Clients` (`id`) ON DELETE CASCADE)
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.30.13ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Delay`, CONSTRAINT `Delay_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:433 - Not conection with DB
+03.13:20.30.13TRACE	ru.sfedu.mydiplom.dao.DbAPI:424 - Conection with DB
+03.13:20.30.13ERROR	ru.sfedu.mydiplom.dao.DbAPI:436 - Cannot add or update a child row: a foreign key constraint fails (`diplom`.`Payments`, CONSTRAINT `Payments_ibfk_1` FOREIGN KEY (`credit`) REFERENCES `Applications` (`id`) ON DELETE CASCADE)
