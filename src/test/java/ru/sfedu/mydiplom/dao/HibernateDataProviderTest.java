@@ -38,6 +38,6 @@ public class HibernateDataProviderTest {
     @Test
     public void testSetTest(){
         HibernateDataProvider hdp = new HibernateDataProvider();
-        hdp.setTest();
+     //   hdp.setTest();
     }
 }

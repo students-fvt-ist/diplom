@@ -21,7 +21,7 @@ import org.simpleframework.xml.Serializer;
 import org.simpleframework.xml.core.Persister;
 
 public class DbAPI implements IGeneric{
-    
+ 
     private static final Logger log = Logger.getLogger(DbAPI.class);
     
     private static String url;

@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.type.BooleanType;
 import ru.sfedu.mydiplom.model.dto.TestEntity;
 import static ru.sfedu.mydiplom.utils.IDGenerator.getIDGenerator;
 
@@ -24,10 +25,10 @@ public class HibernateDataProvider {
     }
     
     public void setTest(){
-        TestEntity entity = new TestEntity(getIDGenerator().getID(), "name", "description", new Date(System.currentTimeMillis()), Boolean.TRUE);
-        Transaction tranc = session.beginTransaction();
-        session.persist(entity);
-        session.saveOrUpdate(entity);
-        tranc.commit();
-    }
+       // TestEntity entity = new TestEntity(); //TestEntity(getIDGenerator().getID(), "name", "description", new Date());
+     //   Transaction tranc = session.beginTransaction();
+     //   session.persist(entity);
+     //   session.saveOrUpdate(entity);
+     //   tranc.commit();
+    }   
 }
