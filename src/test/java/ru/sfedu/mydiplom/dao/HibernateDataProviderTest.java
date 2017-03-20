@@ -1,7 +1,12 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import org.junit.Test;
+import ru.sfedu.mydiplom.model.dto.Automobile;
+import ru.sfedu.mydiplom.model.dto.TestEntity;
+import static ru.sfedu.mydiplom.utils.IDGenerator.getIDGenerator;
 
 public class HibernateDataProviderTest {
     
@@ -36,8 +41,22 @@ public class HibernateDataProviderTest {
     }
     
     @Test
-    public void testSetTest(){
+    public void testSaveTest(){
         HibernateDataProvider hdp = new HibernateDataProvider();
-     //   hdp.setTest();
+        hdp.saveTest(generateTestEntity(1000));
+    }
+    
+    @Test
+    public void testGetTest(){
+        HibernateDataProvider hdp = new HibernateDataProvider();
+        System.out.println(hdp.getTest(1490031270800l).get());
+    }
+    
+    public List<TestEntity> generateTestEntity(int count){
+        List<TestEntity> list = new ArrayList<>();
+        for (int i = 0; i < count; i++) {
+            list.add(new TestEntity(getIDGenerator().getID(), "name"+i, "description"+i, new Date(), true, new Automobile("Owen vender"+i, "Owen model"+i, "Owen number"+i), new Automobile("Work vender"+i, "Work model"+i, "Work number"+i)));
+        }
+        return list;
     }
 }

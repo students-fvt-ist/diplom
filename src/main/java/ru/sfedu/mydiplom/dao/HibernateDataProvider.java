@@ -1,12 +1,15 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.type.BooleanType;
+import ru.sfedu.mydiplom.model.dto.Automobile;
 import ru.sfedu.mydiplom.model.dto.TestEntity;
-import static ru.sfedu.mydiplom.utils.IDGenerator.getIDGenerator;
+import static java.util.Optional.ofNullable;
 
 public class HibernateDataProvider {
     
@@ -24,11 +27,17 @@ public class HibernateDataProvider {
        return session.getNamedNativeQuery("GET_DATA_LENGTH").getResultList();
     }
     
-    public void setTest(){
-       // TestEntity entity = new TestEntity(); //TestEntity(getIDGenerator().getID(), "name", "description", new Date());
-     //   Transaction tranc = session.beginTransaction();
-     //   session.persist(entity);
-     //   session.saveOrUpdate(entity);
-     //   tranc.commit();
+    public void saveTest(List<TestEntity> list){
+        Transaction tranc = session.beginTransaction();
+        list.stream().forEachOrdered((item) -> session.saveOrUpdate(item));
+        tranc.commit();
+    }   
+    
+    public Optional<TestEntity> getTest(long id){
+        Optional<TestEntity> item;
+        Transaction tranc = session.beginTransaction();
+        item = ofNullable(session.get(TestEntity.class, id));
+        tranc.commit();
+        return item;
     }   
 }

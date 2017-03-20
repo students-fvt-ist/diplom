@@ -37,7 +37,8 @@ public class TestEntity implements Serializable{
     public TestEntity() {
     }
 
-    public TestEntity(String name, String description, Date dateCreated, boolean checke, Automobile owenAutomobile, Automobile workingAutomobile) {
+    public TestEntity(long id, String name, String description, Date dateCreated, boolean checke, Automobile owenAutomobile, Automobile workingAutomobile) {
+        this.id = id;
         this.name = name;
         this.description = description;
         this.dateCreated = dateCreated;
@@ -102,4 +103,9 @@ public class TestEntity implements Serializable{
         this.workingAutomobile = workingAutomobile;
     }
 
+    @Override
+    public String toString() {
+        return "TestEntity{" + "id=" + id + ", name=" + name + ", description=" + description + ", dateCreated=" + dateCreated + ", checke=" + checke + ", owenAutomobile=" + owenAutomobile + ", workingAutomobile=" + workingAutomobile + '}';
+    }
+    
 }

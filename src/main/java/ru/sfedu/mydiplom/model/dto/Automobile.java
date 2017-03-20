@@ -46,4 +46,9 @@ public class Automobile implements Serializable{
         this.number = number;
     }
 
+    @Override
+    public String toString() {
+        return "Automobile{" + "vender=" + vender + ", model=" + model + ", number=" + number + '}';
+    }
+
 }
