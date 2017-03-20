@@ -52,6 +52,24 @@ public class HibernateDataProviderTest {
         System.out.println(hdp.getTest(1490031270800l).get());
     }
     
+    
+    @Test
+    public void testDeleteTest(){
+        HibernateDataProvider hdp = new HibernateDataProvider();
+        List<TestEntity> item = generateTestEntity(1);
+        hdp.saveTest(item);
+        hdp.deleteTest(item.get(0));
+    }
+    
+    @Test
+    public void testUpdateTest(){
+        HibernateDataProvider hdp = new HibernateDataProvider();
+        List<TestEntity> item = generateTestEntity(1);
+        hdp.saveTest(item);
+        item.get(0).setName("Changed");
+        hdp.updateTest(item);
+    }
+    
     public List<TestEntity> generateTestEntity(int count){
         List<TestEntity> list = new ArrayList<>();
         for (int i = 0; i < count; i++) {

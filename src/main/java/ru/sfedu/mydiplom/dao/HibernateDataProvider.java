@@ -1,13 +1,10 @@
 package ru.sfedu.mydiplom.dao;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import org.hibernate.type.BooleanType;
-import ru.sfedu.mydiplom.model.dto.Automobile;
 import ru.sfedu.mydiplom.model.dto.TestEntity;
 import static java.util.Optional.ofNullable;
 
@@ -32,6 +29,24 @@ public class HibernateDataProvider {
         list.stream().forEachOrdered((item) -> session.saveOrUpdate(item));
         tranc.commit();
     }   
+    
+    public void deleteTest(List<TestEntity> list){
+        Transaction tranc = session.beginTransaction();
+        list.stream().forEachOrdered((item) -> session.delete(item));
+        tranc.commit();
+    }
+    
+    public void deleteTest(TestEntity item){
+        List<TestEntity> list = new ArrayList<>(1);
+        list.add(item);
+        deleteTest(list);
+    }
+    
+    public void updateTest(List<TestEntity> list){
+        Transaction tranc = session.beginTransaction();
+        list.stream().forEachOrdered((item) -> session.update(item));
+        tranc.commit();
+    } 
     
     public Optional<TestEntity> getTest(long id){
         Optional<TestEntity> item;
