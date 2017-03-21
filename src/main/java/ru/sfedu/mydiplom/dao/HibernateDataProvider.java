@@ -6,6 +6,7 @@ import java.util.Optional;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import ru.sfedu.mydiplom.model.dto.TestEntity;
+import org.hibernate.c3p0.internal.C3P0ConnectionProvider;
 import static java.util.Optional.ofNullable;
 
 public class HibernateDataProvider {
@@ -26,13 +27,16 @@ public class HibernateDataProvider {
     
     public void saveTest(List<TestEntity> list){
         Transaction tranc = session.beginTransaction();
-        list.stream().forEachOrdered((item) -> session.saveOrUpdate(item));
+        list.forEach((item) -> {
+            session.persist(item); 
+            session.saveOrUpdate(item);
+        });
         tranc.commit();
     }   
     
     public void deleteTest(List<TestEntity> list){
         Transaction tranc = session.beginTransaction();
-        list.stream().forEachOrdered((item) -> session.delete(item));
+        list.forEach((item) -> session.delete(item));
         tranc.commit();
     }
     
@@ -44,7 +48,7 @@ public class HibernateDataProvider {
     
     public void updateTest(List<TestEntity> list){
         Transaction tranc = session.beginTransaction();
-        list.stream().forEachOrdered((item) -> session.update(item));
+        list.forEach((item) -> session.update(item));
         tranc.commit();
     } 
     
@@ -55,4 +59,13 @@ public class HibernateDataProvider {
         tranc.commit();
         return item;
     }   
+    
+    public List<TestEntity> getAllTest(){
+        List<TestEntity> list = new ArrayList<>();
+        Transaction tranc = session.beginTransaction();
+        list = session.byMultipleIds(TestEntity.class).multiLoad(1490031270800l, 1490031270799l, 1490031270798l);
+        tranc.commit();
+        C3P0ConnectionProvider as = new C3P0ConnectionProvider();
+        return list;
+    }  
 }

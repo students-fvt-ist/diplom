@@ -43,13 +43,23 @@ public class HibernateDataProviderTest {
     @Test
     public void testSaveTest(){
         HibernateDataProvider hdp = new HibernateDataProvider();
-        hdp.saveTest(generateTestEntity(1000));
+        hdp.saveTest(generateTestEntity(10));
     }
     
     @Test
     public void testGetTest(){
         HibernateDataProvider hdp = new HibernateDataProvider();
         System.out.println(hdp.getTest(1490031270800l).get());
+    }
+    
+    @Test
+    public void testGetAllTest(){
+        HibernateDataProvider hdp = new HibernateDataProvider();
+        
+        List l = hdp.getAllTest();
+        for (Object object : l) {
+            System.out.println(object);
+        }
     }
     
     
