@@ -1,11 +1,14 @@
 package ru.sfedu.mydiplom.dao;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Optional;
 import org.junit.Test;
 import ru.sfedu.mydiplom.model.dto.Automobile;
 import ru.sfedu.mydiplom.model.dto.TestEntity;
+import ru.sfedu.mydiplom.model.dto.singletable.AccountSingleTable;
 import static ru.sfedu.mydiplom.utils.IDGenerator.getIDGenerator;
 
 public class HibernateDataProviderTest {
@@ -80,11 +83,24 @@ public class HibernateDataProviderTest {
         hdp.updateTest(item);
     }
     
-    public List<TestEntity> generateTestEntity(int count){
+    private List<TestEntity> generateTestEntity(int count){
         List<TestEntity> list = new ArrayList<>();
         for (int i = 0; i < count; i++) {
             list.add(new TestEntity(getIDGenerator().getID(), "name"+i, "description"+i, new Date(), true, new Automobile("Owen vender"+i, "Owen model"+i, "Owen number"+i), new Automobile("Work vender"+i, "Work model"+i, "Work number"+i)));
         }
         return list;
+    }
+    
+    private Optional testt(Optional optional){
+        return optional;
+    }
+    
+    @Test
+    public void testT(){
+        Optional<AccountSingleTable> sOptional;
+        sOptional = Optional.ofNullable(new AccountSingleTable(getIDGenerator().getID(), BigDecimal.ONE, "owner", BigDecimal.ZERO));
+        Optional optional;
+        optional = Optional.ofNullable(testt(sOptional));
+        System.out.println(optional.get().toString());
     }
 }

@@ -1,7 +1,5 @@
 package ru.sfedu.mydiplom.utils;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import ru.sfedu.mydiplom.Main;
 
 public class IDGenerator {
