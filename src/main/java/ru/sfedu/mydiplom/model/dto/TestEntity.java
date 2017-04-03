@@ -5,7 +5,6 @@ import java.util.Date;
 import javax.persistence.*;
 
 @Entity
-@Table
 public class TestEntity implements Serializable{
     @Id
     private Long id=1l;

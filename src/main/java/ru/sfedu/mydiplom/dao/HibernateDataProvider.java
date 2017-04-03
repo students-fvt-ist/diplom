@@ -9,7 +9,7 @@ import ru.sfedu.mydiplom.model.dto.TestEntity;
 import org.hibernate.c3p0.internal.C3P0ConnectionProvider;
 import static java.util.Optional.ofNullable;
 
-public class HibernateDataProvider {
+public class HibernateDataProvider{
     
     private static final Session session = HibernateUtil.getSessionFactory().openSession();
     

@@ -10,6 +10,10 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import static ru.sfedu.mydiplom.Constants.*;
 import ru.sfedu.mydiplom.model.dto.*;
+import ru.sfedu.mydiplom.model.dto.mappedsuperclass.*;
+import ru.sfedu.mydiplom.model.dto.tableperclass.*;
+import ru.sfedu.mydiplom.model.dto.joinedtable.*;
+import ru.sfedu.mydiplom.model.dto.singletable.*;
 import static ru.sfedu.mydiplom.utils.ConfigurationUtil.getConfigurationEntry;
 
 public class HibernateUtil {
@@ -43,6 +47,18 @@ private static ServiceRegistry serviceRegistry;
                 .addAnnotatedClass(Payments.class)
                 .addAnnotatedClass(TypeCredits.class)
                 .addAnnotatedClass(TestEntity.class)
+                .addAnnotatedClass(AccountMappedSuperclass.class)
+                .addAnnotatedClass(CreditAccountMappedSuperclass.class)
+                .addAnnotatedClass(DebitAccountMappedSuperclass.class)
+                .addAnnotatedClass(AccountTablePerClass.class)
+                .addAnnotatedClass(CreditAccountTablePerClass.class)
+                .addAnnotatedClass(DebitAccountTablePerClass.class)
+                .addAnnotatedClass(AccountSingleTable.class)
+                .addAnnotatedClass(CreditAccountSingleTable.class)
+                .addAnnotatedClass(DebitAccountSingleTable.class)
+                .addAnnotatedClass(AccountJoinedTable.class)
+                .addAnnotatedClass(CreditAccountJoinedTable.class)
+                .addAnnotatedClass(DebitAccountJoinedTable.class)
                 .addResource("named-queries.hbm.xml");
         SessionFactory sessionFactory = source.buildMetadata().buildSessionFactory();
         return sessionFactory;
