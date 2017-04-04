@@ -5,7 +5,6 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity(name = "CreditAccountSingleTable")
-@DiscriminatorValue("Credit")
 public class CreditAccountSingleTable extends AccountSingleTable{
     BigDecimal creditLimit;
 

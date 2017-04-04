@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 @Entity(name = "AccountSingleTable")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorValue( "null" )
 public class AccountSingleTable implements Serializable{
     @Id
     Long id;

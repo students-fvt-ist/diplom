@@ -5,7 +5,6 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity(name = "DebitAccountSingleTable")
-@DiscriminatorValue("Debit")
 public class DebitAccountSingleTable extends AccountSingleTable{
     BigDecimal overdraftFree;
 
